@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>{{TITEL}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root { --tinte: #2b1d10; --rot: #7a1c12; --gold: #a07a2c; --rand: #c9ad78; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #efe0bc; }
+  body { padding: 0 22mm; font-family: "IM Fell English", "Palatino Linotype", Georgia, serif; color: var(--tinte); font-size: 11.6pt; line-height: 1.42; }
+  /* Pergament und Rahmen: position fixed wiederholt sich auf jeder gedruckten Seite */
+  .pergament { position: fixed; inset: 0; z-index: -1;
+    background:
+      radial-gradient(ellipse at 15% 8%, rgba(255,250,235,.8), transparent 50%),
+      radial-gradient(ellipse at 88% 92%, rgba(150,110,50,.25), transparent 55%),
+      radial-gradient(ellipse at 92% 10%, rgba(140,100,40,.14), transparent 40%),
+      #efe0bc; }
+  .rahmen { position: fixed; inset: 9mm; border: 1.6pt solid var(--rand); pointer-events: none; }
+  .rahmen::before { content: ""; position: absolute; inset: 2.6mm; border: .6pt solid var(--rand); }
+  .rahmen::after { content: "❦"; position: absolute; top: -3mm; left: 50%; transform: translateX(-50%); background: #f0e2c0; padding: 0 3mm; color: var(--gold); font-size: 14pt; line-height: 1; }
+  /* Kopf- und Fußabstand je Seite über wiederholte Tabellenkopf- und -fußzeilen */
+  table.seite { width: 100%; border-collapse: collapse; font-size: inherit; }
+  table.seite > thead td { height: 19mm; padding: 0; border: 0; }
+  table.seite > tfoot td { height: 17mm; padding: 0; border: 0; }
+  table.seite > tbody > tr > td { padding: 0; border: 0; }
+  .neue-seite { break-before: page; }
+  .kopf { text-align: center; margin-bottom: 5mm; }
+  svg.wappen { width: 15mm; height: 18mm; display: block; margin: 0 auto 1.5mm; }
+  .mark { font-family: "IM Fell English SC", serif; letter-spacing: .18em; font-size: 9.5pt; color: var(--gold); }
+  h1 { font-family: "UnifrakturMaguntia", serif; font-weight: normal; color: var(--rot); font-size: 30pt; margin: 2mm 0 0; line-height: 1.05; }
+  h1.klein { font-size: 24pt; }
+  .unter { font-style: italic; font-size: 12.5pt; margin-top: 1.5mm; }
+  .zier { color: var(--gold); letter-spacing: .5em; margin: 2mm 0 1mm; }
+  .verfasser { font-family: "IM Fell English SC", serif; font-size: 9.5pt; letter-spacing: .08em; }
+  .anrede { font-style: italic; margin: 4mm 0 1mm; }
+  .einleitung { text-align: justify; }
+  .initial { float: left; font-family: "UnifrakturMaguntia", serif; color: var(--rot); font-size: 40pt; line-height: .8; margin: 1.5mm 2mm 0 0; }
+  h2 { font-family: "IM Fell English SC", serif; font-weight: normal; color: var(--rot); text-align: center; font-size: 14pt; letter-spacing: .12em; margin: 4.5mm 0 1.5mm; }
+  h2::before, h2::after { content: " ✦ "; color: var(--gold); font-size: 10pt; }
+  .ereignis { margin: 0 0 3.2mm; padding-left: 3.5mm; border-left: 2pt solid var(--rand); break-inside: avoid; }
+  .ereignis.gut { border-left-color: #6f7a3a; }
+  .ereignis.schlecht { border-left-color: var(--rot); }
+  .ereignis.gemischt { border-left-color: var(--gold); }
+  .ereignis h3 { margin: 0 0 .8mm; font-size: 12.5pt; font-weight: normal; }
+  .ereignis h3 .nr { font-family: "UnifrakturMaguntia", serif; color: var(--rot); }
+  .art { font-family: "IM Fell English SC", serif; font-size: 8.5pt; letter-spacing: .1em; color: var(--gold); margin-left: 1.5mm; }
+  .ereignis p { margin: 0 0 1mm; text-align: justify; }
+  ul.wirk { list-style: none; margin: 0; padding: 0; font-size: 9.6pt; columns: 2; column-gap: 6mm; }
+  ul.wirk li { break-inside: avoid; }
+  .pf { font-size: 8pt; }
+  .pf.\+ { color: #4f6a1f; } .pf.- { color: var(--rot); } .pf.o { color: var(--gold); }
+  table.bereiche { width: 100%; border-collapse: collapse; font-size: 9.8pt; break-inside: avoid; }
+  table.bereiche th { font-family: "IM Fell English SC", serif; font-weight: normal; color: var(--rot); border-bottom: 1pt solid var(--rand); text-align: left; padding: 1mm 1.5mm; }
+  table.bereiche td { padding: .9mm 1.5mm; border-bottom: .4pt dotted var(--rand); vertical-align: top; }
+  td.pfe { white-space: nowrap; font-size: 8.5pt; color: var(--gold); }
+  td.stufe { white-space: nowrap; color: var(--rot); font-size: 9pt; }
+  td.stufe small { color: var(--tinte); font-style: italic; }
+  table.kasse { margin: 1mm auto 0; border-collapse: collapse; font-size: 11pt; }
+  table.kasse td { padding: .6mm 4mm; border-bottom: .4pt dotted var(--rand); }
+  table.kasse td:last-child { text-align: right; }
+  table.kasse tr:last-child td { color: var(--rot); border-bottom: 0; }
+  .reserve { text-align: center; margin-top: 1.5mm; }
+  .reserve b { color: var(--rot); }
+  .zwei { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; break-inside: avoid; }
+  .zwei ul { margin: 0; padding-left: 5mm; }
+  section.fest { margin: 0 0 2mm; padding: 2mm 4mm; border: .6pt solid var(--rand); border-radius: 1mm; background: rgba(255,250,235,.35); break-inside: avoid; }
+  section.fest h3 { margin: 0 0 .8mm; font-family: "UnifrakturMaguntia", serif; font-weight: normal; color: var(--rot); font-size: 14pt; }
+  section.fest p { margin: 0; text-align: justify; font-style: italic; }
+  p.beilage { clear: both; text-align: center; font-family: "IM Fell English SC", serif; color: var(--rot); font-size: 10pt; margin: 2mm 0 0; }
+  p.hinweis { text-align: center; font-style: italic; font-size: 9.5pt; margin: 0 0 1.5mm; color: #6b5636; }
+  ul.geruechte { list-style: none; padding: 0; margin: 0; }
+  ul.geruechte li { margin-bottom: 1.4mm; padding-left: 5mm; text-indent: -5mm; break-inside: avoid; }
+  ul.geruechte li::before { content: "❧ "; color: var(--gold); }
+  span.quelle { font-family: "IM Fell English SC", serif; color: var(--rot); }
+  ul.entscheid { list-style: none; padding: 0; margin: 0; }
+  ul.entscheid li.frage { margin-bottom: 2mm; break-inside: avoid; }
+  ol.optionen { list-style: none; padding-left: 5mm; margin: .5mm 0 0; font-size: 10pt; }
+  ol.optionen li { margin-bottom: .4mm; }
+  ol.optionen b { color: var(--rot); font-weight: normal; font-family: "IM Fell English SC", serif; }
+  ul.ausblick { margin: 0; padding-left: 5mm; columns: 1; }
+  .schluss { text-align: center; font-style: italic; margin-top: 6mm; padding-left: 23mm; }
+  .ot { clear: both; }
+  .siegel {
+    float: right; margin: 4mm 0 2mm 5mm; width: 18mm; height: 18mm; border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #b8382a, #7a1c12 60%, #5a120b);
+    color: #f1d9b0; font-family: "UnifrakturMaguntia", serif; font-size: 18pt;
+    display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 1.5mm rgba(122,28,18,.25);
+  }
+  .ot { margin-top: 3mm; font-size: 7.5pt; color: #7d6747; font-family: Georgia, serif; }
+  .legende { font-size: 8.5pt; text-align: center; color: #6b5636; margin-top: 2mm; }
+  .schreiben p { text-align: justify; }
+  .gruss { margin-top: 6mm; font-style: italic; }
+  .unterschrift { margin-top: 12mm; width: 80mm; font-size: 10.5pt; }
+  .linie { border-top: .8pt solid var(--tinte); margin-bottom: 1mm; }
+</style>
+</head>
+<body>
+<div class="pergament"></div><div class="rahmen"></div>
+<table class="seite"><thead><tr><td></td></tr></thead><tfoot><tr><td></td></tr></tfoot><tbody><tr><td><div>
+  <div class="kopf">
+    {{WAPPEN}}
+    <div class="mark">Haus Falkenstein · Markgrafschaft Freiberg</div>
+    <h1>Chronik des Gutes</h1>
+    <div class="unter">{{TITEL}}</div>
+    <div class="zier">✦ ✦ ✦</div>
+    <div class="verfasser">Ausgabe {{NR}} · Monat {{MONAT}} · {{JAHR}} · {{VERFASSER}}</div>
+  </div>
+
+  <p class="anrede">{{ANREDE}}</p>
+  <p class="einleitung"><span class="initial">{{INITIAL}}</span>{{EINLEITUNG}}</p>
+
+  <h2>Was sich zutrug</h2>
+  {{EREIGNISSE}}
+  {{FEST}}
+  {{GERUECHTE}}
+</div>
+<div>
+  <h2>Stand der Bereiche</h2>
+  <table class="bereiche">
+    <tr><th>Bereich</th><th>Wirkungen</th><th>Stufe</th><th>Lage</th></tr>
+    {{BEREICHE}}
+  </table>
+  <div class="legende">◆ Stufe von fünf · ▲ besser · ▼ schlechter · ● spürbar, ohne Richtung</div>
+
+  <h2>Die Kasse</h2>
+  <table class="kasse"><tbody>{{KASSE}}</tbody></table>
+  <div class="reserve">Barreserve des Hauses: <b>{{RESERVE}}</b></div>
+
+  <h2>Zu Eurem Entscheid</h2>
+  <ul class="entscheid">{{ENTSCHEIDUNGEN}}</ul>
+  <div class="legende">✦ Rat der Schreibstube</div>
+  <h2>Ausblick</h2>
+  <ul class="ausblick">{{AUSBLICK}}</ul>
+
+  <div class="siegel">F</div>
+  <p class="schluss">{{SCHLUSS}}</p>
+  {{SCHREIBEN}}
+  <div class="ot">⚑ Ereignisse dieser Chronik sind Vorschläge und werden erst nach Bestätigung Kanon.</div>
+</div>
+</td></tr></tbody></table>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>$titel</title>
+<style>
+@font-face { font-family: 'Almendra'; font-style: normal; src: url('$schriften/H4ckBXKAlMnTn0CskxY9yL4.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212; }
+@font-face { font-family: 'Almendra'; font-style: normal; src: url('$schriften/H4ckBXKAlMnTn0CskxYzyL6Agw.woff2') format('woff2'); unicode-range: U+0100-02BA, U+1E00-1E9F, U+2020, U+A720-A7FF; }
+@font-face { font-family: 'Almendra'; font-style: italic; src: url('$schriften/H4ciBXKAlMnTn0CskxY4-LyYhw.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212; }
+@font-face { font-family: 'Almendra'; font-style: italic; src: url('$schriften/H4ciBXKAlMnTn0CskxY4-LKYh563.woff2') format('woff2'); unicode-range: U+0100-02BA, U+1E00-1E9F, U+2020, U+A720-A7FF; }
+@font-face { font-family: 'UnifrakturMaguntia'; src: url('$schriften/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2') format('woff2'); }
+
+@page { size: A4; margin: 0; }
+html, body { margin: 0; padding: 0; background: #D8C38A; }
+body { position: relative; min-height: $hoehe; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+/* Ein Pergamentblatt mit Zierrand je Druckseite, untereinander gestapelt. */
+.pergament { position: absolute; left: 0; width: 210mm; height: 297mm; z-index: 0; }
+.pergament img { width: 210mm; height: 297mm; display: block; }
+
+/* Ränder innerhalb des Zierrahmens; clone wiederholt sie nach jedem Seitenumbruch. */
+.blatt { position: relative; z-index: 1; padding: 104px 100px 104px; box-decoration-break: clone; -webkit-box-decoration-break: clone;
+  color: #2E2216; font-family: 'Almendra', 'Palatino Linotype', Georgia, serif; font-size: 16px; line-height: 1.55; }
+p { margin: 0 0 9px; text-align: justify; hyphens: auto; orphans: 3; widows: 3; }
+.initiale { float: left; font-family: 'UnifrakturMaguntia', serif; font-size: 76px; line-height: 0.8; color: #8F2B1C; padding: 8px 10px 0 0; }
+.ueberschrift { margin: 24px 0 14px; font-family: 'UnifrakturMaguntia', serif; font-size: 22px; color: #8F2B1C; text-align: center; text-wrap: balance; break-after: avoid; }
+.pilcrow { color: #8F2B1C; }
+.datum { margin-top: 15px; font-style: italic; }
+.schluss { break-inside: avoid; }
+.unterschrift { margin-top: 16px; display: flex; flex-direction: column; align-items: flex-end; margin-right: 6px; }
+.unterschrift .name { font-family: 'UnifrakturMaguntia', serif; font-size: 27px; line-height: 1.3; }
+.unterschrift .titel { font-style: italic; font-size: 15px; }
+.siegel-block { margin-top: 18px; display: flex; flex-direction: column; align-items: center; }
+.schnuere { position: relative; width: 40px; height: 34px; }
+.schnuere span { position: absolute; bottom: 0; width: 3px; height: 40px; background: #2D4F8E; }
+.schnuere span:first-child { left: 9px; transform: rotate(-6deg); }
+.schnuere span:last-child { right: 9px; transform: rotate(6deg); }
+.siegel { width: 90px; height: 90px; margin-top: -6px; border-radius: 48% 52% 50% 50% / 52% 47% 53% 48%; background: radial-gradient(circle at 38% 34%, rgba(255,255,255,0.18), rgba(0,0,0,0) 45%), #8E2A1E; box-shadow: 0 2px 4px rgba(40,10,5,0.4); display: flex; align-items: center; justify-content: center; }
+.siegel div { width: 62px; height: 62px; border-radius: 50%; border: 1.5px solid rgba(0,0,0,0.28); display: flex; align-items: center; justify-content: center; font-family: 'UnifrakturMaguntia', serif; font-size: 34px; color: rgba(0,0,0,0.38); line-height: 1; }
+</style>
+</head>
+<body>
+$pergament
+<div class="blatt">
+$inhalt
+</div>
+</body>
+</html>

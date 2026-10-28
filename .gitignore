@@ -1,0 +1,17 @@
+# Temporäre Dateien
+*.tmp
+*.bak
+*~
+~$*
+.~lock.*#
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/

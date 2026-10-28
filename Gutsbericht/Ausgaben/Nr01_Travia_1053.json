@@ -1,0 +1,327 @@
+{
+  "nr": 1,
+  "monat": "Travia",
+  "jahr": "1053 BF",
+  "titel": "Bericht über das Rittergut Falkenstein im Monat der Travia",
+  "verfasser": "Aufgezeichnet von der Schreibstube zu Falkenstein",
+  "anrede": "Euer Wohlgeboren,",
+  "einleitung": "die Felder sind abgeerntet, über dem Kaltentann färben sich die Buchen zwischen den Tannen, und an der Großen Weststraße ziehen die letzten Händler vor dem Winter durch. Was sich im Monat der Travia auf dem Gut zugetragen hat, sei hier getreulich verzeichnet, Gutes wie Schlechtes, auf dass Ihr wisst, wo Eure Hand gebraucht wird.",
+  "ereignisse": [
+    {
+      "titel": "Erntedank zu Silberbach",
+      "art": "gut",
+      "text": "Die Felder um Silberbach haben gut getragen. Die Garben sind trocken eingebracht, der Herrn-Zehnt in Korn wurde ohne Murren gereicht, und ein kleiner Überschuss ließ sich an Händler auf der Weststraße verkaufen. Werold, der Dorfälteste, ließ zum Traviafest ein Brot an das Burgtor bringen, wie es zur Zeit seines Vaters Brauch gewesen sei. In Hochfeld liegt ein Drittel der Felder weiter brach.",
+      "wirkungen": [
+        {
+          "bereich": "Felder und Ernte",
+          "richtung": "+",
+          "notiz": "gute Ernte in Silberbach"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "+",
+          "betrag": 15,
+          "notiz": "Kornüberschuss verkauft"
+        },
+        {
+          "bereich": "Bevölkerung und Stimmung",
+          "richtung": "+",
+          "notiz": "alter Brauch wiederbelebt"
+        },
+        {
+          "bereich": "Steinmühle",
+          "richtung": "-",
+          "notiz": "volle Mahlzeit, der angeschlagene Stein wurde stark beansprucht"
+        }
+      ]
+    },
+    {
+      "titel": "Die Aufgebotsübung vor der Burg",
+      "art": "gut",
+      "text": "Zur monatlichen Übung kamen elf Männer aus beiden Dörfern, mehr als beim letzten Mal. Reihenkampf und Speerstellung gehen schon leidlich. Hildeburg schickte vier Köhler aus Hochfeld mit dem Bescheid, die Arbeit im Wald dürfe darüber nicht liegen bleiben. Danach gab es Brot und Dünnbier für alle.",
+      "wirkungen": [
+        {
+          "bereich": "Sicherheit und Wehr",
+          "richtung": "+",
+          "notiz": "Aufgebot übt geordneter"
+        },
+        {
+          "bereich": "Bevölkerung und Stimmung",
+          "richtung": "+",
+          "notiz": "die Männer sind stolz auf das Erlernte"
+        },
+        {
+          "bereich": "Forst und Köhlerei",
+          "richtung": "-",
+          "notiz": "ein Tag Arbeit im Wald fiel aus"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "-",
+          "betrag": -3,
+          "notiz": "Brot und Dünnbier"
+        }
+      ]
+    },
+    {
+      "titel": "Drei Bergleute in der Herberge zum Silberbach",
+      "art": "gemischt",
+      "text": "Gegen Monatsende kehrten drei Bergleute auf Wanderschaft in der Herberge zum Silberbach ein. Sie haben an der Weststraße gehört, am Kaltentann solle die Förderung wieder aufgenommen werden, und fragen nach Arbeit oder wenigstens nach einem Winterquartier. Bis zu Eurem Entscheid werden sie auf Kosten des Gutes verköstigt. Die Männer, die der Junker von Elzwalde nach Eurer Abmachung für den Wiederaufbau stellt, sind kräftige Hände; gelernte Hauer aber sind sie nicht. Noch ist die Förderung nicht freigegeben und kein Lohn zugesagt.",
+      "wirkungen": [
+        {
+          "bereich": "Bergbau Kaltentann",
+          "richtung": "+",
+          "notiz": "erste erfahrene Bergleute in Reichweite"
+        },
+        {
+          "bereich": "Herberge und Weststraße",
+          "richtung": "+",
+          "notiz": "drei Gäste für mehrere Nächte"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "-",
+          "betrag": -4,
+          "notiz": "Kost für die Wartenden"
+        },
+        {
+          "bereich": "Beziehungen",
+          "richtung": "o",
+          "notiz": "die Kunde vom Kaltentann läuft die Weststraße entlang"
+        }
+      ]
+    },
+    {
+      "titel": "Herbststurm über dem Kaltentann",
+      "art": "schlecht",
+      "text": "In der dritten Woche fegte ein Sturm von Westen über den Berg. Am Rundturm riss er Schindeln vom Dach; Regen drang bis ins zweite Geschoss. Im Forst warf er Tannen auf den Pfad nach Hochfeld, der zwei Tage lang nur zu Fuß gangbar war. Das Dach ist notdürftig geflickt, wird aber keinen Firunwinter überstehen, ohne gründlich gedeckt zu werden.",
+      "wirkungen": [
+        {
+          "bereich": "Burg und Befestigung",
+          "richtung": "-",
+          "notiz": "Turmdach beschädigt"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "-",
+          "betrag": -12,
+          "notiz": "Notreparatur, Schindeln und Pech"
+        },
+        {
+          "bereich": "Forst und Köhlerei",
+          "richtung": "o",
+          "notiz": "Windbruch: Arbeit, aber auch Holz"
+        },
+        {
+          "bereich": "Felder und Ernte",
+          "richtung": "o",
+          "notiz": "Ernte war schon eingebracht"
+        }
+      ]
+    },
+    {
+      "titel": "Der Wolf bei Hochfeld",
+      "art": "schlecht",
+      "text": "Der einsame Wolf, der seit Monaten gesichtet wird, hat sich an die Herden bei Hochfeld gewagt und zwei Schafe gerissen. Weil der eine Waffenknecht die Burg bewacht und der andere die Weststraße abreitet, zogen zwei Hochfelder Jäger allein aus und erlegten das Tier am vierten Tag; das Fell wurde verkauft. Man fragt sich in Hochfeld, warum der Herr keinen Mann schicken konnte.",
+      "wirkungen": [
+        {
+          "bereich": "Bevölkerung und Stimmung",
+          "richtung": "-",
+          "notiz": "Hochfeld fühlt sich allein gelassen"
+        },
+        {
+          "bereich": "Sicherheit und Wehr",
+          "richtung": "-",
+          "notiz": "zu wenig Männer für Burg, Straße und Dörfer zugleich"
+        },
+        {
+          "bereich": "Forst und Köhlerei",
+          "richtung": "o",
+          "notiz": "Wild nah den Dörfern bleibt rar"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "+",
+          "betrag": 3,
+          "notiz": "Wolfsfell verkauft"
+        }
+      ]
+    }
+  ],
+  "bereiche": [
+    {
+      "name": "Kasse und Finanzen",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "9 S am Tag, Reserve 8.100 S unberührt"
+    },
+    {
+      "name": "Felder und Ernte",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Silberbach gut, Hochfeld zu einem Drittel brach"
+    },
+    {
+      "name": "Steinmühle",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "läuft, der angeschlagene Stein leidet"
+    },
+    {
+      "name": "Forst und Köhlerei",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Windbruch am Pfad, ein Arbeitstag verloren"
+    },
+    {
+      "name": "Steinbruch (Kalkstein)",
+      "vorher": 2,
+      "nachher": 2,
+      "lage": "unverändert brach"
+    },
+    {
+      "name": "Bergbau Kaltentann",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Förderung nicht freigegeben; Elzwalde stellt Männer, drei Bergleute warten"
+    },
+    {
+      "name": "Herberge und Weststraße",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "Herbstverkehr, Wegzoll fließt"
+    },
+    {
+      "name": "Burg und Befestigung",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "Mauer fest, Turmdach notdürftig geflickt"
+    },
+    {
+      "name": "Sicherheit und Wehr",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Aufgebot besser, aber zu wenig Waffenknechte"
+    },
+    {
+      "name": "Bevölkerung und Stimmung",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Silberbach dankbar, Hochfeld murrt"
+    },
+    {
+      "name": "Beziehungen",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "Markgraf wohlwollend; mit Elzwalde mündlich einig: Eisen gegen Männer"
+    }
+  ],
+  "kasse": {
+    "zeilen": [
+      [
+        "Tageskraft (30 Tage zu 9 S)",
+        "+270 S"
+      ],
+      [
+        "Ereignisse des Monats",
+        "−1 S"
+      ],
+      [
+        "Frei verfügbar im Travia",
+        "269 S"
+      ]
+    ],
+    "reserve": "8.100 S (unverändert)"
+  },
+  "entscheidungen": [
+    {
+      "frage": "Was geschieht mit den drei Bergleuten in der Herberge?",
+      "empfehlung": 1,
+      "optionen": [
+        {
+          "label": "Sofort anwerben",
+          "folge": "Lohn nach der Ausfertigung 2 S am Tag je Mann, also 180 S im Monat aus der Reserve. Sie beginnen mit der Instandsetzung der Stollen. Die Bergleute sind Euch treu, der Berater mahnt zur Vorsicht."
+        },
+        {
+          "label": "Über den Winter halten",
+          "folge": "Kost und Quartier für etwa 12 S im Monat, Anstellung bei Förderbeginn zugesagt. Die Bergleute sind Euch gewogen, der Wirt freut sich über die Gäste."
+        },
+        {
+          "label": "Ziehen lassen",
+          "folge": "Keine Kosten. An der Weststraße wird erzählt, Falkenstein zögere mit dem Kaltentann."
+        }
+      ]
+    },
+    {
+      "frage": "Was wird aus dem Turmdach vor dem Winter?",
+      "empfehlung": 0,
+      "optionen": [
+        {
+          "label": "Jetzt gründlich decken",
+          "folge": "Dachdecker aus der Mark, etwa 50 S aus der Reserve. Die Burg ist winterfest, die Waffenknechte schlafen trocken."
+        },
+        {
+          "label": "Mit Hochfelder Holz und Fron",
+          "folge": "Schindeln und Hände aus Hochfeld, kaum Kosten. Hochfeld murrt ohnehin schon, Hildeburg wird es Euch nachtragen."
+        },
+        {
+          "label": "Bis zum Frühjahr warten",
+          "folge": "Keine Kosten jetzt. Im Firun droht größerer Schaden am Turm."
+        }
+      ]
+    },
+    {
+      "frage": "Wie antwortet Varion auf das Murren in Hochfeld?",
+      "empfehlung": 0,
+      "optionen": [
+        {
+          "label": "Selbst hinreiten und danken",
+          "folge": "Varion lobt die Jäger öffentlich und belohnt sie mit 5 S. Hildeburg und Hochfeld sind versöhnt."
+        },
+        {
+          "label": "Waffenknecht nach Hochfeld",
+          "folge": "Der Straßenposten wird zeitweise nach Hochfeld verlegt. Das Dorf ist dankbar, aber die Grenzzulage hängt an der Wacht an der Westmark."
+        },
+        {
+          "label": "Jagderlaubnis auf Raubwild",
+          "folge": "Hochfelder dürfen Wolf und Fuchs selbst jagen. Das Dorf ist zufrieden, Euer Jagdrecht wird löchriger."
+        }
+      ]
+    }
+  ],
+  "ausblick": [
+    "Im Boron werden die Tage kurz, und die Waldpfade werden schlammig.",
+    "Der angeschlagene Mühlstein ist binnen ein bis zwei Jahren zu ersetzen.",
+    "Zum Praiosfest ist der Lehnszehnt an Seine Erlaucht fällig."
+  ],
+  "schluss": "Gegeben zu Falkenstein, am Ende des Monats der Travia, im Jahre 1053 nach dem Fall Bosparans. Travia segne Herd und Haus.",
+  "schreiben": [
+    {
+      "an": "Seine Erlaucht",
+      "datei": "2026-10-28_Lage_am_Gut_Travia_1053",
+      "anlass": "Kunde vom Kaltentann verbreitet sich; drei Bergleute fragen nach Arbeit (Ereignis III). Betrifft das markgräflich verliehene Schürfrecht."
+    }
+  ],
+  "fest": {
+    "name": "Traviafest",
+    "text": "Zum Fest der Herrin von Herd und Gastfreundschaft blieb in Silberbach kein Fremder ohne Brot. In der Herberge zum Silberbach stellte der Wirt eine Schale Met für jeden Reisenden vor die Tür, und in beiden Dörfern brannte das Herdfeuer die Nacht hindurch. Man achtete genau darauf, ob die Burg den alten Brauch kennt: Werolds Brot am Burgtor wurde mit Salz erwidert, wie es sich gehört."
+  },
+  "geruechte": [
+    {
+      "quelle": "Herberge zum Silberbach",
+      "text": "Ein Fuhrmann schwört, der Bach heiße nicht umsonst Silberbach: Sein Großvater habe am Kaltentann einst ein Silberkorn so groß wie eine Erbse gefunden."
+    },
+    {
+      "quelle": "Hochfeld, bei den Köhlern",
+      "text": "Die Köhler erzählen, der alte Vogt habe im letzten Winter Holzkohle säckeweise an Fremde verkauft, ohne dass ein Heller davon in die Gutskasse ging. Beweisen kann es keiner."
+    },
+    {
+      "quelle": "Hochfeld, bei den Hirten",
+      "text": "Ein Hirte will in der Nacht nach der Wolfsjagd am Waldrand ein zweites Paar Augen gesehen haben. Die anderen lachen, aber die Herden bleiben näher am Dorf."
+    },
+    {
+      "quelle": "Silberbach, am Mühlbach",
+      "text": "Die Bergleute in der Herberge prahlen beim Met, sie hätten in den Stollen ganz anderer Herren schon Dinge gesehen, die man besser nicht ausspricht."
+    }
+  ]
+}

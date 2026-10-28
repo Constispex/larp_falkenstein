@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rittergut Falkenstein – Vollständige Beschreibung</title>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --parchment:#f5e9ce;--ink:#1c0e05;--ink-brown:#3d1f0a;
+  --ink-red:#7a1212;--gold:#8b6914;--gold-l:#c49b28;
+}
+body{
+  background:#180c04;
+  font-family:'IM Fell English','Palatino Linotype',serif;
+  color:var(--ink);padding:3rem 1rem 5rem;
+  display:flex;flex-direction:column;align-items:center;gap:3.5rem;
+}
+.page-wrapper{max-width:820px;width:100%}
+.document{
+  background:var(--parchment);
+  background-image:
+    radial-gradient(ellipse at center,transparent 48%,rgba(70,40,8,.28) 100%),
+    radial-gradient(ellipse at 18% 30%,rgba(165,125,55,.2) 0%,transparent 55%),
+    radial-gradient(ellipse at 82% 72%,rgba(145,105,40,.16) 0%,transparent 50%),
+    radial-gradient(ellipse at 55% 12%,rgba(210,170,85,.14) 0%,transparent 42%),
+    radial-gradient(ellipse at 70% 55%,rgba(245,220,160,.18) 0%,transparent 60%);
+  padding:5rem 5.5rem;position:relative;
+  border:1.5px solid var(--gold);
+  box-shadow:inset 0 0 100px rgba(110,70,15,.22),0 6px 80px rgba(0,0,0,.7);
+}
+.frame-outer{position:absolute;inset:16px;border:.75px solid var(--gold);opacity:.6;pointer-events:none}
+.frame-inner{position:absolute;inset:21px;border:.5px solid var(--gold);opacity:.32;pointer-events:none}
+.corners{position:absolute;inset:0;pointer-events:none}
+.corners span{position:absolute;font-size:1.9rem;color:var(--gold);line-height:1}
+.corners .tl{top:6px;left:8px}.corners .tr{top:6px;right:8px;transform:scaleX(-1)}
+.corners .bl{bottom:6px;left:8px;transform:scaleY(-1)}.corners .br{bottom:6px;right:8px;transform:scale(-1)}
+
+.doc-header{text-align:center;margin-bottom:2.8rem}
+.invocatio{font-style:italic;font-size:.82rem;color:var(--ink-red);letter-spacing:.07em;margin-bottom:1.3rem}
+.main-title{font-family:'UnifrakturMaguntia',serif;font-size:2.8rem;color:var(--ink-red);line-height:1.05;margin-bottom:.6rem}
+.doc-subtitle{font-family:'Cinzel',serif;font-size:1.1rem;color:var(--ink-brown);letter-spacing:.2em;margin-bottom:.3rem}
+.doc-sub2{font-family:'Cinzel',serif;font-size:.72rem;color:var(--gold);letter-spacing:.28em}
+
+.divider{display:flex;align-items:center;gap:.7rem;margin:1.6rem 0;color:var(--gold);opacity:.75}
+.divider::before,.divider::after{content:'';flex:1;height:.5px;background:var(--gold)}
+.divider span{font-size:.85rem;letter-spacing:.3em;white-space:nowrap}
+
+.section{margin-bottom:1.8rem}
+.section-title{font-family:'Cinzel',serif;font-size:.8rem;color:var(--ink-red);letter-spacing:.28em;text-transform:uppercase;text-align:center;margin-bottom:.8rem}
+
+p{font-size:.96rem;line-height:1.9;color:var(--ink);margin-bottom:.8rem;text-align:justify;hyphens:auto}
+p:last-child{margin-bottom:0}
+
+.drop-cap::first-letter{font-family:'UnifrakturMaguntia',serif;font-size:4.2rem;float:left;line-height:.72;margin-right:.06em;margin-top:.08em;color:var(--ink-red)}
+
+.ort-block{margin-bottom:1.6rem;padding-left:1.2rem;border-left:2px solid rgba(139,105,20,.4)}
+
+ul.clist{list-style:none;padding:0;margin:.4rem 0}
+ul.clist li{font-size:.93rem;line-height:1.75;padding-left:1.4rem;position:relative;margin-bottom:.45rem;text-align:justify;hyphens:auto;color:var(--ink)}
+ul.clist li::before{content:'✦';position:absolute;left:0;color:var(--ink-red);font-size:.6rem;top:.38rem}
+ul.clist li strong{color:var(--ink-brown)}
+
+.box{border:.75px solid var(--gold);padding:1.2rem 1.5rem;margin:1.2rem 0;background:rgba(139,105,20,.06);position:relative}
+.box-title{position:absolute;top:-.62rem;left:50%;transform:translateX(-50%);padding:0 .9rem;font-family:'Cinzel',serif;font-size:.72rem;color:var(--ink-red);letter-spacing:.2em;white-space:nowrap;
+  background-image:radial-gradient(ellipse at 70% 50%,rgba(245,220,160,.18) 0%,transparent 60%),linear-gradient(var(--parchment),var(--parchment))}
+
+.anmerkung{border-left:2px solid var(--gold);padding:.7rem 1rem .7rem 1.2rem;margin:1rem 0;background:rgba(139,105,20,.05);font-size:.88rem;font-style:italic;color:var(--ink-brown);line-height:1.7}
+
+/* stat row */
+.stat-row{display:flex;gap:.8rem;margin:.8rem 0 1rem;flex-wrap:wrap}
+.stat-box{flex:1;min-width:110px;border:.75px solid var(--gold);padding:.65rem .9rem;background:rgba(139,105,20,.06);text-align:center}
+.stat-label{font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:.2rem}
+.stat-value{font-family:'IM Fell English',serif;font-size:1rem;color:var(--ink-red);font-style:italic}
+
+/* zustand badges */
+.z{display:inline-block;font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:.15rem .45rem;border-radius:2px;margin-left:.35rem;vertical-align:middle}
+.z.s{background:rgba(122,18,18,.11);color:var(--ink-red);border:.5px solid rgba(122,18,18,.35)}
+.z.m{background:rgba(139,105,20,.11);color:#6b4e0a;border:.5px solid rgba(139,105,20,.35)}
+.z.g{background:rgba(40,80,30,.09);color:#2d5a20;border:.5px solid rgba(40,80,30,.3)}
+
+/* two col */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin:.7rem 0}
+@media(max-width:600px){.two-col{grid-template-columns:1fr}}
+
+/* finance table */
+.fin-table{width:100%;border-collapse:collapse;margin:.5rem 0 .9rem;font-size:.88rem}
+.fin-table th{font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-red);padding:.45rem .75rem;border-bottom:1px solid var(--gold);text-align:left}
+.fin-table th:not(:first-child){text-align:right}
+.fin-table td{padding:.35rem .75rem;color:var(--ink);border-bottom:.5px solid rgba(139,105,20,.22);line-height:1.5;font-style:italic}
+.fin-table td:not(:first-child){text-align:right;font-style:normal}
+.fin-table tr.tot td{font-style:normal;font-family:'Cinzel',serif;font-size:.75rem;letter-spacing:.05em;color:var(--ink-brown);border-top:1px solid var(--gold);border-bottom:none;padding-top:.55rem}
+.fin-table tr.tot td:not(:first-child){color:var(--ink-red)}
+
+/* military card */
+.mil-card{border:.75px solid var(--gold);padding:.85rem 1rem;background:rgba(139,105,20,.05)}
+.mil-title{font-family:'Cinzel',serif;font-size:.7rem;color:var(--ink-red);letter-spacing:.14em;text-transform:uppercase;margin-bottom:.5rem}
+.mil-row{font-size:.86rem;line-height:1.65;color:var(--ink);margin-bottom:.2rem}
+.mil-row span{color:var(--gold);margin-right:.25rem}
+
+.doc-date{text-align:center;margin-top:1.8rem;font-style:italic;font-size:.88rem;color:var(--ink-brown);line-height:1.7}
+
+@media print{body{background:white;padding:0;gap:2rem}.page-wrapper{max-width:100%}.document{box-shadow:none;border:1.5px solid #8b6914;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@media(max-width:620px){.document{padding:3rem 1.8rem}.main-title{font-size:2rem}.stat-row{flex-direction:column}}
+</style>
+</head>
+<body>
+
+<!-- ══════════ DOKUMENT I: ORTSBESCHREIBUNG ══════════ -->
+<div class="page-wrapper"><div class="document">
+  <div class="frame-outer"></div><div class="frame-inner"></div>
+  <div class="corners"><span class="tl">❧</span><span class="tr">❧</span><span class="bl">❧</span><span class="br">❧</span></div>
+
+  <header class="doc-header">
+    <p class="invocatio">✦ Beschreibung des Landes, seiner Ortschaften und Grenzen ✦</p>
+    <h1 class="main-title">Rittergut Falkenstein</h1>
+    <p class="doc-subtitle">Markgrafschaft Freiberg · Mittelreich</p>
+    <p class="doc-sub2">Vollständige Beschreibung · 1053 BF</p>
+  </header>
+
+  <div class="divider"><span>✦ ✦ ✦</span></div>
+
+  <!-- ÜBERBLICK -->
+  <div class="section">
+    <h2 class="section-title">Überblick und Lage</h2>
+    <p class="drop-cap">Das Rittergut Falkenstein erstreckt sich über ein grünes, waldreiches Hügelland im Westen der Markgrafschaft Freiberg. Der weitaus größte Teil des Landes ist von dichtem Mischwald aus Tannen, Eichen und Buchen bedeckt, der sich wie ein grüner Mantel über Hügel und Täler legt. In ihm öffnen sich drei Orte: die Burg Falkenstein im Westen auf ihrem Kalksteinfelsen, der Weiler Hochfeld im Nordosten auf einer bewaldeten Anhöhe, und der Weiler Silberbach im südlichen Tal am gleichnamigen Bach. Sie sind durch Waldpfade miteinander verbunden, die bei Regen schlammig und bei Schnee schwer passierbar werden.</p>
+    <p>Das Gut hat eine ausgeprägt militärische Prägung: Die Lage der Burg auf dem Falkensteinfelsen, die Kontrolle über die östliche Grenzstraße und eine Tradition des Waffendienstes unter den Untersassen machen Falkenstein zu einem wachsamen Vorposten an der Westmark der Markgrafschaft. Der neue Herr, Navarion von Falkenstein, ist ein Mann der Waffe – und das spürt man von der ersten Stunde an.</p>
+
+    <div class="stat-row">
+      <div class="stat-box"><span class="stat-label">Einwohner gesamt</span><span class="stat-value">ca. 200</span></div>
+      <div class="stat-box"><span class="stat-label">Höfe</span><span class="stat-value">~27 Höfe</span></div>
+      <div class="stat-box"><span class="stat-label">Siedlungen</span><span class="stat-value">Burg + 2 Dörfer</span></div>
+      <div class="stat-box"><span class="stat-label">Grenzlage</span><span class="stat-value">Westmark</span></div>
+    </div>
+  </div>
+
+  <div class="divider"><span>— ✦ —</span></div>
+
+  <!-- BURG FALKENSTEIN -->
+  <div class="section">
+    <h2 class="section-title">Burg Falkenstein · Berg Kaltentann</h2>
+    <div class="ort-block">
+      <p>Im Westen des Gutes erhebt sich der <em>Berg Kaltentann</em>, ein dichter, dunkler Höhenzug, dessen finstere Tannenwälder dem Berg seinen Namen gaben. Aus seinem östlichen Hang ragt der <em>Falkensteinfelsen</em>, ein mächtiger Kalksteinsporn, auf dessen flachem Gipfel die <strong>Burg Falkenstein</strong> thront – kein Prunkbau, aber eine nüchterne, zweckmäßige Wehranlage, die ihren Zweck ernst nimmt. Von hier aus überblickt man das gesamte Gut: beide Dörfer, die Grenzstraße im Osten und den nördlichen Waldrand liegen dem Herrn wie auf einer Karte zu Füßen.</p>
+      <p>Das Herzstück ist ein dreistöckiger Rundturm aus hellem Kalkstein, etwa zwölf Meter hoch, mit Mauern von gut einer Elle Dicke. Das Erdgeschoss dient als Lager, Rüstkammer und Pferdestall für die Kriegspferde der Waffenknechte. Das erste Obergeschoss beherbergt den Hauptsaal mit einer breiten Herdstelle, die Küche und die gemeinschaftliche Unterkunft der Garnison. Das zweite Obergeschoss ist die Privatkammer des Herrn, klein, aber mit dem einzigen Glasfenster des Hauses. Vom Dachaufbau mit Zinnen hat man freie Sicht auf beide Weiler, die Grenzstraße im Osten und den nördlichen Waldrand.</p>
+      <p>Um den Turm herum liegt ein kleiner gepflasterter Hof mit Brunnen, umschlossen von einer hölzernen Palisade. Diese ist solide in weiten Teilen, hat aber im Norden drei eingestürzte Abschnitte, die dringend gesetzt werden müssen. An der Südseite des Hofes befindet sich ein überdachter Übungsplatz mit Strohpuppen und Schwertpfahl für die tägliche Waffenübung. Die Schmiede ist derzeit nicht in Betrieb – die Esse ist kalt, die Werkzeuge rostig – doch der Ofen wäre mit wenig Aufwand wieder zu entzünden und wäre für die Erzverarbeitung von großem Nutzen.</p>
+      <p>Im Inneren des Kaltentann befinden sich mehrere alte <em>Erzstollen</em>, die schon zu Zeiten der ersten Falkensteiner in Betrieb waren. Das Gestein des Berges führt Eisenerz von brauchbarer Güte sowie feine Silberspuren, die dem Bach seinen Namen gaben. Die Stollen sind unter dem alten Vogt kaum noch betrieben worden; mit tüchtigen Bergleuten und Investition in Gerät ließe sich hier eine der wichtigsten Einnahmequellen des Gutes erschließen. Das Erz wird über den Burgpfad abtransportiert und in Silberbach oder entlang der Landstraße weiterverkauft.</p>
+    </div>
+  </div>
+
+  <div class="divider"><span>— ✦ —</span></div>
+
+  <!-- HOCHFELD -->
+  <div class="section">
+    <h2 class="section-title">Dorf Hochfeld</h2>
+    <div class="ort-block">
+      <p><strong>Hochfeld</strong> liegt auf einer leichten Anhöhe im Nordosten des Gutes, eingebettet in eine Lichtung, die von dichtem, altem Tannenwuchs auf allen Seiten eingeschlossen wird. Mit zehn Höfen ist es das kleinere der beiden Dörfer – doch sein wirtschaftlicher Wert übersteigt die bloße Einwohnerzahl bei weitem, denn Hochfeld lebt vom Wald. Das auffälligste Gebäude ist ein stattliches Gutshaus mit rotem Ziegeldach, das heute als Gemeinschaftsspeicher, Versammlungsort und bei Bedarf als Quartier für Bewaffnete dient. Eine schlichte Kapelle an der Westseite des Dorfplatzes ist dem Allglänzenden Praios geweiht.</p>
+      <p>Die meisten Männer Hochfelds arbeiten als <em>Holzfäller</em> oder <em>Köhler</em>. Die dichten Tannen- und Buchenwälder rings um das Dorf liefern erstklassiges Nutz- und Bauholz; ein Teil davon wird zu Holzkohle gebrannt, die für die Erzschmelze am Berg Kaltentann unentbehrlich ist. Hochfelds Köhler und die Bergleute des Kaltentann sind aufeinander angewiesen – stirbt der Holzkohlenachschub, stehen die Stollen still. Diese Abhängigkeit macht Hochfeld zu einem strategisch wichtigen Teil des Gutes, auch wenn es klein ist. Die Felder liegen zu einem Drittel brach; das ist hier weniger der Engpass als bei anderen Dörfern, denn die eigentliche Arbeit geschieht im Wald.</p>
+      <p>Die Dorfälteste <em>Hildeburg</em>, eine beleibte, redegewandte Frau jenseits der sechzig, trägt das Gedächtnis des Weilers. Sie empfing Navarion mit frischem Brot und Honigmet und ließ dabei durchblicken, dass sie ihn sehr genau beobachten wird.</p>
+      <p><em>Einwohner: ca. 70 · Höfe: 10 · Überwiegend Leibeigene · Haupterwerb: Holzfällung, Köhlerei</em></p>
+    </div>
+  </div>
+
+  <div class="divider"><span>— ✦ —</span></div>
+
+  <!-- SILBERBACH -->
+  <div class="section">
+    <h2 class="section-title">Dorf Silberbach</h2>
+    <div class="ort-block">
+      <p><strong>Silberbach</strong> liegt im südlichen Tal, wo der gleichnamige Bach aus den Höhen des Kaltentann herabkommt und eine feuchte, fruchtbare Niederung bildet. Mit siebzehn Höfen ist es das größere der beiden Dörfer und das wirtschaftliche Herz des Gutes. Das Dorf liegt unmittelbar an der <em>Großen Weststraße</em>, der Haupthandelsstraße der Markgrafschaft – und das merkt man: Hier ist immer Betrieb, immer Staub auf der Straße, immer ein Fuhrwerk vor der Herberge.</p>
+      <p>Das prägende Gebäude ist die <em>Herberge zum Silberbach</em>, ein rotgedecktes, weitläufiges Fachwerkhaus direkt an der Großen Weststraße. Sie bietet Reisenden Nachtquartier, Stall für bis zu acht Pferde und einen Schankraum, der der lauteste Ort im ganzen Rittergut ist. Der Gutsherr erhält einen festgelegten Anteil des Herbergsgewinns als Abgabe; zusätzlich wird an der Herberge ein Wegzoll für Fuhrwerke erhoben. Da die Straße täglich von Händlern, Fuhrleuten, Boten und Bewaffneten benutzt wird, ist diese Einnahme wetter- und ernteunabhängig – ein seltener Vorzug.</p>
+      <p>Die <em>Steinmühle</em> steht unmittelbar am Bach, wo das Wasser genug Gefälle hat, das Mühlrad zu treiben. Sie läuft täglich, ist aber in einem der Mühlsteine bereits angeschlagen. Alle Untersassen des Gutes unterliegen dem Mahlzwang. Der Dorfälteste <em>Werold</em>, ein bedächtiger, graubärtiger Mann mittlerer Jahre, hat dem alten Vogt stets die Stirn geboten, wenn dieser die Abgaben ohne Grund erhöhen wollte. Er ist kein Aufrührer – er ist ein Gerechtigkeitsmensch, was wertvoller ist.</p>
+      <p><em>Einwohner: ca. 120 · Höfe: 17 · Überwiegend Leibeigene, einige Freie · Landstraßenlage</em></p>
+    </div>
+  </div>
+
+  <div class="divider"><span>— ✦ —</span></div>
+
+  <!-- FORST -->
+  <div class="section">
+    <h2 class="section-title">Der Falkensteiner Forst</h2>
+    <p>Der Wald, der das Gut zu einem großen Teil bedeckt, ist alter, gewachsener Mischwald. Tannen dominieren das Bild; zwischen ihnen stehen Buchen, Eichen und vereinzelt alte Linden. Nahe den Dörfern ist das Holz durch unkontrollierten Einschlag bereits ausgedünnt. Weiter im Innern, jenseits einer halben Meile von den Siedlungen, steht der Wald noch in voller Kraft: starke Stämme, dichtes Unterholz, reiches Wild. Rotwild, Reh und Wildschwein sind zahlreich; ein einsamer Wolf wurde in den letzten Monaten mehrfach gesichtet.</p>
+  </div>
+
+  <div class="divider"><span>— ✦ —</span></div>
+
+  <!-- GRENZE UND NACHBAR -->
+  <div class="section">
+    <h2 class="section-title">Ostgrenze und Junkerngut Elzwalde</h2>
+    <p>Die östliche Grenze des Rittergutes Falkenstein verläuft entlang der <strong>Großen Weststraße</strong> – einer der Haupthandelsstraßen der Markgrafschaft Freiberg, breit genug für zwei Fuhrwerke nebeneinander und fest genug für schwere Lasten. Die Straße verläuft von Nord nach Süd und ist durch bemoste Grenzsteine markiert, die zugleich die Scheidelinie zwischen Falkenstein und dem östlich gelegenen Junkerngut Elzwalde bilden. Sie ist zu jeder Jahreszeit benutzt – Händler, Fuhrleute, Pilger, Soldaten und Boten reisen hier in stetigem Strom.</p>
+    <p>Die Hauptstraße ist die wichtigste Lebensader des Gutes. Über sie transportiert Navarion Erz, Holz und Feldfrüchte in die Märkte der Markgrafschaft; über sie kommen Waren, Nachrichten und Reisende zurück. Die Herberge in Silberbach liegt unmittelbar an dieser Straße und lebt von ihr. Wer die Weststraße kontrolliert, hat ein Auge auf alles, was durch den Westen der Markgrafschaft bewegt wird – das macht Falkenstein strategisch wertvoller als seine Größe vermuten lässt.</p>
+
+    <div class="box">
+      <span class="box-title">Nachbargut · Junkerngut Elzwalde</span>
+      <p>Unmittelbar östlich der Grenzlinie liegt das <em>Junkerngut Elzwalde</em>, Sitz eines Junkers – und damit eines Herrn, der im Adelsrang <strong>über</strong> dem Ritter steht. Der Junker von Elzwalde hat damit protokollarisch das höhere Wort, sollte es je zu einem förmlichen Streit kommen. Navarion von Falkenstein hingegen hält das stärkere militärische Mandat des Markgrafen – eine Spannung, die je nach Charakter des Junkers zu Freundschaft, stiller Rivalität oder offenem Konflikt führen kann.</p>
+      <p>Das persönliche Verhältnis der beiden Herren ist bislang ungeklärt; Navarion hat den Junker von Elzwalde noch nicht offiziell begrüßt. Grenzfragen, Jagdrechte im nördlichen Zipfel, die gemeinsame Nutzung der Großen Weststraße und die Frage, wer dort das Sagen hat, bieten reichlich Gesprächsstoff. Klugheit empfiehlt, den ersten Schritt zu tun – der Junker schuldet ihn protokollarisch nicht.</p>
+    </div>
+  </div>
+
+  <p class="doc-date"><em>Fortsetzung auf dem nächsten Blatt: Militär, Rohstoffe und Finanzen</em></p>
+
+</div></div>
+
+
+<!-- ══════════ DOKUMENT II: MILITÄR, WIRTSCHAFT & FINANZEN ══════════ -->
+<div class="page-wrapper"><div class="document">
+  <div class="frame-outer"></div><div class="frame-inner"></div>
+  <div class="corners"><span class="tl">❧</span><span class="tr">❧</span><span class="bl">❧</span><span class="br">❧</span></div>
+
+  <header class="doc-header">
+    <p class="invocatio">✦ Militärische Verhältnisse · Rohstoffe · Finanzen ✦</p>
+    <h1 class="main-title" style="font-size:2.2rem;">Rittergut Falkenstein</h1>
+    <p class="doc-subtitle">Interne Aufzeichnungen</p>
+    <p class="doc-sub2">Markgrafschaft Freiberg · 1053 BF</p>
+  </header>
+
+  <div class="divider"><span>✦ ✦ ✦</span></div>
+
+  <!-- MILITÄR -->
+  <div class="section">
+    <h2 class="section-title">Militärische Verhältnisse</h2>
+    <p>Das Rittergut Falkenstein ist in seiner Gesamtanlage und Kultur militärisch geprägt. Die Lage der Burg auf einem natürlichen Felssporn, die Kontrolle über die östliche Grenzstraße zu Elzwalde und die wachsame Haltung des neuen Herrn machen Falkenstein zu einem ernstzunehmenden kleinen Vorposten – bescheiden in Zahlen, aber konsequent in Haltung und Bereitschaft. Als Westmark der Markgrafschaft Freiberg hat das Gut eine natürliche Wächterfunktion, die sein Herr mit Stolz trägt.</p>
+
+    <h2 class="section-title" style="margin-top:1.4rem;">Ständige Garnison – 8 Waffenknechte</h2>
+    <div class="two-col">
+      <div class="mil-card">
+        <p class="mil-title">WK I &amp; II · Turmwache</p>
+        <p class="mil-row"><span>✦</span>Speer (mittlere Qualität)</p>
+        <p class="mil-row"><span>✦</span>Kurzschwert</p>
+        <p class="mil-row"><span>✦</span>Holzschild, metallbeschlagen</p>
+        <p class="mil-row"><span>✦</span>Eisenhelm</p>
+        <p class="mil-row" style="margin-top:.4rem;font-style:italic;font-size:.8rem;color:var(--ink-brown)">Turmwache, Torbewachung</p>
+      </div>
+      <div class="mil-card">
+        <p class="mil-title">WK III &amp; IV · Außenpatrouille</p>
+        <p class="mil-row"><span>✦</span>Speer (mittlere Qualität)</p>
+        <p class="mil-row"><span>✦</span>Kurzschwert</p>
+        <p class="mil-row"><span>✦</span>Holzschild, metallbeschlagen</p>
+        <p class="mil-row"><span>✦</span>Eisenhelm</p>
+        <p class="mil-row" style="margin-top:.4rem;font-style:italic;font-size:.8rem;color:var(--ink-brown)">Tagespatrouille Grenzweg, Eskorte</p>
+      </div>
+      <div class="mil-card">
+        <p class="mil-title">WK V &amp; VI · Dorfschutz</p>
+        <p class="mil-row"><span>✦</span>Speer (mittlere Qualität)</p>
+        <p class="mil-row"><span>✦</span>Kurzschwert</p>
+        <p class="mil-row"><span>✦</span>Holzschild, metallbeschlagen</p>
+        <p class="mil-row"><span>✦</span>Eisenhelm</p>
+        <p class="mil-row" style="margin-top:.4rem;font-style:italic;font-size:.8rem;color:var(--ink-brown)">Wach- und Schutzdienst Silberbach</p>
+      </div>
+      <div class="mil-card">
+        <p class="mil-title">WK VII &amp; VIII · Reserve / Bote</p>
+        <p class="mil-row"><span>✦</span>Speer (mittlere Qualität)</p>
+        <p class="mil-row"><span>✦</span>Kurzschwert</p>
+        <p class="mil-row"><span>✦</span>Holzschild, metallbeschlagen</p>
+        <p class="mil-row"><span>✦</span>Eisenhelm</p>
+        <p class="mil-row" style="margin-top:.4rem;font-style:italic;font-size:.8rem;color:var(--ink-brown)">Reserve, Botendienst, Ablösung</p>
+      </div>
+    </div>
+
+    <ul class="clist" style="margin-top:1.2rem;">
+      <li><strong>Dienstplan:</strong> Zwei Waffenknechte halten ständige Turmwache auf der Burg. Zwei sind auf Außenpatrouille an der Grenzstraße. Zwei sind im Dorf Silberbach stationiert (Schutz der Herberge und der Landstraße). Zwei sind in Reserve, als Ablösung verfügbar oder zu Botendiensten eingeteilt. Der Herr selbst führt die Außenpatrouille regelmäßig an.</li>
+      <li><strong>Tägliches Training:</strong> Jeden Morgen eine Stunde Waffenübung im Burghof. Speerwurf, Schildarbeit, Kurzschwert-Übungen. Navarion führt das Training selbst oder überwacht es. Das ist keine Kür – das ist Pflicht.</li>
+      <li><strong>Bewaffnung des Herrn:</strong> Navarion von Falkenstein führt im Felde Langschwert, Kettenrüstung mit Waffenrock und Vollhelm; sein Streitross steht in der Burg. Er ist der kampffähigste Mann des Gutes.</li>
+    </ul>
+
+    <h2 class="section-title" style="margin-top:1.6rem;">Das Aufgebot</h2>
+    <p>Aus den beiden Dörfern lassen sich im Kriegsfall <strong>10–14 waffenfähige Männer</strong> aufbieten. Sie sind keine ausgebildeten Soldaten, aber besser organisiert als auf den meisten Rittergütern – dank einer Übungspflicht, die Navarion von Falkenstein unmittelbar nach Amtsantritt eingeführt hat.</p>
+    <ul class="clist">
+      <li><strong>Monatliche Übung:</strong> Einmal im Monat, am Sonntag nach dem Praiosfest, versammeln sich alle waffenfähigen Männer des Gutes auf dem freien Platz vor der Burg. Navarion oder einer seiner Waffenknechte unterweist sie in Grundübungen: Reihenkampf, Schildwall, Speerstellung. Es ist grob und ungeschliffen – aber es ist mehr als nichts.</li>
+      <li><strong>Ausrüstung Aufgebot Silberbach (6–8 Mann):</strong> Spieße und umgebaute Heugabeln, zwei alte Jagdbögen, lederne Wämse bei den Wohlhabenderen, kaum Schutzausrüstung. Drei Männer haben kurze Schwerter alter Machart in Familienbesitz.</li>
+      <li><strong>Ausrüstung Aufgebot Hochfeld (4–6 Mann):</strong> Ähnlich, etwas schlechter ausgerüstet; ein Mann besitzt einen alten Helm seines Vaters, sonst kaum Schutzausrüstung.</li>
+      <li><strong>Kampfwert:</strong> Das Aufgebot taugt zur Dorfverteidigung, zur Bewachung von Stellungen und als zahlenmäßige Verstärkung. Im offenen Feldkampf gegen erfahrene Krieger ist es kaum zu gebrauchen.</li>
+    </ul>
+
+    <h2 class="section-title" style="margin-top:1.6rem;">Befestigung und Defensive</h2>
+    <ul class="clist">
+      <li><strong>Burg Falkenstein:</strong> Natürlich verteidigt durch den Felssporn. Kein Angreifer kann die Burg stürmen, ohne den steilen, engen Aufstiegspfad unter Beschuss zu nehmen. Gegen kleine und mittlere Räubertrupps ist die Burg praktisch uneinnehmbar. Bei einem organisierten Angriff von mehr als 20–25 Kämpfern bricht die Verteidigung ohne Entlastung irgendwann zusammen.</li>
+      <li><strong>Palisade:</strong> Holzpalisade rund um den Burghof, solide bis auf drei eingestürzte Abschnitte im Norden. Dringende Priorität für Reparatur. Mittelfristiges Ziel: Ersatz durch Kalksteinmauer aus dem eigenen Bruch.</li>
+      <li><strong>Straßenpatrouille (Große Weststraße):</strong> Die Hauptstraße an der Ostgrenze wird täglich von zwei Waffenknechten patrouilliert. Sie prüfen verdächtige Reisende, erheben den Wegzoll in Silberbach und sind erste Anlaufstelle für alle, die das Gut über die Straße betreten. Vier Grenzsteinpaare markieren die Haltepunkte; kein befestigter Posten, aber regelmäßige Präsenz.</li>
+      <li><strong>Gesamtbewertung:</strong> Die Burg schützt zuverlässig gegen Räuber und kleine Banden. Eine feindliche Streitmacht von mehr als dreißig Mann würde das Gut in Bedrängnis bringen. Die militärische Stärke des Gutes liegt nicht in der Zahl, sondern in Disziplin, Gelände und der Entschlossenheit seines Herrn.</li>
+    </ul>
+
+    <div class="anmerkung">
+      <strong>Notiz des Lehnsherrn:</strong> Das Gut ist kein Bollwerk, aber es ist wachsam. In der Westmark zählt das mehr als eine hohe Mauer ohne Männer dahinter. Navarion von Falkenstein weiß das – und seine Leute lernen es.
+    </div>
+  </div>
+
+  <div class="divider"><span>— ✦ —</span></div>
+
+  <!-- ROHSTOFFE -->
+  <div class="section">
+    <h2 class="section-title">Rohstoffe und Wirtschaft</h2>
+
+    <div class="two-col">
+      <div style="border:.75px solid var(--gold);padding:1rem;background:rgba(139,105,20,.05)">
+        <p style="font-family:'Cinzel',serif;font-size:.78rem;color:var(--ink-red);letter-spacing:.14em;margin-bottom:.6rem;">I. Eisenerz (Berg Kaltentann)</p>
+        <p style="font-size:.9rem;margin-bottom:.5rem">Das Gestein des Kaltentann führt Eisenerz brauchbarer Güte sowie feine Kupferadern. Die Stollen sind offen und begehbar, werden aber seit Jahren kaum betrieben. Das Erz wird über den Burgpfad nach Silberbach abtransportiert und dort oder entlang der Landstraße verkauft.</p>
+        <p style="font-size:.84rem;font-style:italic;color:var(--ink-brown)">Zustand: <span class="z m">Mittel</span> – Stollen offen, Gerät veraltet. Bei Investition in Bergleute und Werkzeug größte Einnahmequelle des Gutes.</p>
+      </div>
+      <div style="border:.75px solid var(--gold);padding:1rem;background:rgba(139,105,20,.05)">
+        <p style="font-family:'Cinzel',serif;font-size:.78rem;color:var(--ink-red);letter-spacing:.14em;margin-bottom:.6rem;">II. Bauholz &amp; Holzkohle (Hochfeld)</p>
+        <p style="font-size:.9rem;margin-bottom:.5rem">Der dichte Falkensteiner Forst rund um Hochfeld liefert Nutzholz und Brennholz. Die Köhler Hochfelds produzieren Holzkohle für die Erzschmelze des Kaltentann – beide Wirtschaftszweige sind aufeinander angewiesen und können gemeinsam skaliert werden.</p>
+        <p style="font-size:.84rem;font-style:italic;color:var(--ink-brown)">Zustand: <span class="z m">Mittel</span> – nahe Dörfern ausgedünnt; tiefer Wald gut. Ausbaufähig mit geordnetem Schlag.</p>
+      </div>
+    </div>
+
+    <ul class="clist" style="margin-top:.8rem">
+      <li><strong>Herberge Silberbach (Landstraße):</strong> Stetige Einnahmen durch Reisende, Händler und Fuhrleute. Wegzoll auf Fuhrwerke. Wetterfeste Einnahmequelle unabhängig von Ernte und Bergbau. <span class="z g">Gut</span></li>
+      <li><strong>Steinmühle Silberbach:</strong> In Betrieb; Mahlzwang gilt für alle Untersassen. Ein Mühlstein angeschlagen – Reparatur in 1–2 Jahren nötig. <span class="z m">Mittel</span></li>
+      <li><strong>Landwirtschaft:</strong> Silberbach gut bestellt; Hochfeld zu einem Drittel brach (Pferdemangel, zerbrochener Pflug). Überschuss nur in guten Jahren. <span class="z m">Mittel</span></li>
+      <li><strong>Kalksteinbruch:</strong> Seit Jahren brach, Werkzeug verrostet. Reaktivierbar als Baumaterial für die geplante Steinmauer der Burg. <span class="z s">Schlecht</span></li>
+      <li><strong>Jagd und Forst:</strong> Wildbestand gut im tiefen Wald. Felle, Wild und Federn als Zusatzertrag. <span class="z m">Mittel</span></li>
+    </ul>
+  </div>
+
+  <div class="divider"><span>— ✦ —</span></div>
+
+  <!-- FINANZEN -->
+  <div class="section">
+    <h2 class="section-title">Finanzielle Verhältnisse</h2>
+    <p>Alle Beträge in Silbertalern (S) pro Jahr. Referenzwert: <em>3.380 S = sehr wohlhabend.</em> Entfernungsangaben gelten nach Freiberger Maß: <em>1 Meile = 1 Kilometer, 1 Rechtmeile = 1 Quadratkilometer.</em> Das Gut verfügt über vier Einnahmesäulen: den landwirtschaftlichen Zehnt, den Erzabbau am Berg Kaltentann, die Forstarbeit Hochfelds und die Herberge Silberbachs an der Landstraße. Da die Garnison von acht Waffenknechten den militärischen Auftrag des Markgrafen an der Westmark erfüllt, gewährt <strong>Markgraf Vilmos von Freiberg</strong> eine jährliche Sonderzahlung als Grenzzulage.</p>
+
+    <p style="font-family:'Cinzel',serif;font-size:.76rem;color:var(--ink-red);letter-spacing:.2em;text-transform:uppercase;margin:1.3rem 0 .5rem">Jahreseinnahmen</p>
+    <table class="fin-table">
+      <thead><tr><th>Einnahmequelle</th><th>Ist-Zustand</th><th>Potenzial</th></tr></thead>
+      <tbody>
+        <tr><td>Herrn-Zehnt, 27 Höfe (nach Kirchenzehnt der Bauern)</td><td>840 S</td><td>1.215 S</td></tr>
+        <tr><td>Mühlengebühren, Steinmühle Silberbach (Mahlzwang)</td><td>130 S</td><td>185 S</td></tr>
+        <tr><td>Nebenabgaben (Weingeld, Mortuarium, Rechtsgeld, Bannergeld, Pacht)</td><td>115 S</td><td>165 S</td></tr>
+        <tr><td>Erzabbau Berg Kaltentann (Eisenerz, Kupferspuren) – derzeit untergenutzt</td><td>420 S</td><td>1.350 S</td></tr>
+        <tr><td>Forstarbeit Hochfeld (Holzfällung, Köhlerei, Holzkohle für Schmelze)</td><td>310 S</td><td>520 S</td></tr>
+        <tr><td>Herberge Silberbach + Wegzoll (Landstraße)</td><td>210 S</td><td>310 S</td></tr>
+        <tr><td>Jagdertrag (Wild, Felle, Federn)</td><td>55 S</td><td>80 S</td></tr>
+        <tr><td>Kalksteinabbau (derzeit brach)</td><td>20 S</td><td>110 S</td></tr>
+        <tr><td style="font-style:normal;color:var(--ink-red)"><strong>Sonderzahlung Markgraf Freiberg</strong> (Grenzzulage Westmark, jährlich)</td><td>4.500 S</td><td>4.500 S</td></tr>
+        <tr class="tot"><td>Gesamt-Jahreseinnahmen</td><td>6.600 S</td><td>8.435 S</td></tr>
+      </tbody>
+    </table>
+
+    <p style="font-family:'Cinzel',serif;font-size:.76rem;color:var(--ink-red);letter-spacing:.2em;text-transform:uppercase;margin:1.4rem 0 .5rem">Jahresausgaben</p>
+    <table class="fin-table">
+      <thead><tr><th>Ausgabenposten</th><th>Ist-Zustand</th><th>Potenzial</th></tr></thead>
+      <tbody>
+        <tr><td>Lehnszehnt an den Markgrafen (auf Eigenwirtschaft, ohne Sonderzahlung)</td><td>210 S</td><td>294 S</td></tr>
+        <tr><td>Kirchenzehnt (1/10 nach Lehnszehnt)</td><td>189 S</td><td>265 S</td></tr>
+        <tr><td>8 Waffenknechte à 720 S/Jahr (Sold, Ausrüstung, Kost, Logis, Instandhaltung)</td><td>5.760 S</td><td>5.760 S</td></tr>
+        <tr><td>Betrieb, Verwaltung, Verbrauchsmaterial</td><td>135 S</td><td>135 S</td></tr>
+        <tr><td>Instandhaltung Burg und Gut (erhöht durch Vernachlässigung)</td><td>250 S</td><td>120 S</td></tr>
+        <tr class="tot"><td>Gesamt-Jahresausgaben</td><td>6.544 S</td><td>6.574 S</td></tr>
+      </tbody>
+    </table>
+
+    <p style="font-family:'Cinzel',serif;font-size:.76rem;color:var(--ink-red);letter-spacing:.2em;text-transform:uppercase;margin:1.4rem 0 .5rem">Jahresbilanz</p>
+    <table class="fin-table">
+      <thead><tr><th>Posten</th><th>Ist-Zustand</th><th>Potenzial</th></tr></thead>
+      <tbody>
+        <tr><td>Einnahmen gesamt</td><td>6.600 S</td><td>8.435 S</td></tr>
+        <tr><td>Ausgaben gesamt</td><td>6.544 S</td><td>6.574 S</td></tr>
+        <tr><td>Davon: Eigenwirtschaft ohne Sonderzahlung</td><td>2.100 S Einnahmen</td><td>3.935 S Einnahmen</td></tr>
+        <tr class="tot"><td>Jahresergebnis</td><td>+ 56 S (kleines Plus)</td><td>+ 1.861 S (Überschuss)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="anmerkung" style="margin-top:1.2rem">
+      <strong>Einordnung für das Spiel:</strong> Die <em>Sonderzahlung des Markgrafen</em> (4.500 S/Jahr) ist das Fundament der Militärfinanzierung – ohne sie wäre die achtköpfige Garnison nicht zu halten. Im Ist-Zustand steht das Gut mit einem kleinen Plus von ~56 S – knapp ausgeglichen, aber stabil genug um handlungsfähig zu sein. Sobald der Erzabbau am Berg Kaltentann richtig läuft und die Forstarbeit Hochfelds ausgebaut ist, erwirtschaftet das Gut einen echten Überschuss von über 1.800 S. <strong>Spielrelevante Risiken:</strong> Fällt die Sonderzahlung weg (z.B. bei Ungehorsam oder politischen Verwerfungen), entsteht sofort ein Defizit von über 4.400 S. Rittergeld, Brautgeld und kaiserliche Sondersteuern sind in dieser Rechnung noch nicht berücksichtigt.
+    </div>
+  </div>
+
+  <div class="divider"><span>✦ ✦ ✦</span></div>
+
+  <p class="doc-date">
+    <em>Aufgezeichnet zum Zeitpunkt der Belehnung<br>
+    Rittergut Falkenstein · Markgrafschaft Freiberg · 1053 BF</em>
+  </p>
+
+</div></div>
+
+</body>
+</html>

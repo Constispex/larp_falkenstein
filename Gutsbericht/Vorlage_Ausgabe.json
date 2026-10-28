@@ -1,0 +1,154 @@
+{
+  "nr": 0,
+  "monat": "",
+  "jahr": "1053 BF",
+  "titel": "Bericht über das Rittergut Falkenstein im Monat ...",
+  "verfasser": "Aufgezeichnet von der Schreibstube zu Falkenstein",
+  "anrede": "Euer Wohlgeboren,",
+  "einleitung": "",
+  "ereignisse": [
+    {
+      "titel": "",
+      "art": "gut | schlecht | gemischt",
+      "text": "",
+      "wirkungen": [
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "+ | - | o",
+          "betrag": 0,
+          "notiz": ""
+        }
+      ]
+    }
+  ],
+  "bereiche": [
+    {
+      "name": "Kasse und Finanzen",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Felder und Ernte",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Steinmühle",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Forst und Köhlerei",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Steinbruch (Kalkstein)",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Bergbau Kaltentann",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Herberge und Weststraße",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Burg und Befestigung",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Sicherheit und Wehr",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Bevölkerung und Stimmung",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    },
+    {
+      "name": "Beziehungen",
+      "vorher": 0,
+      "nachher": 0,
+      "lage": ""
+    }
+  ],
+  "kasse": {
+    "zeilen": [
+      [
+        "Tageskraft (30 Tage zu 9 S)",
+        "+270 S"
+      ],
+      [
+        "Ereignisse des Monats",
+        "0 S"
+      ],
+      [
+        "Frei verfügbar im ...",
+        "270 S"
+      ]
+    ],
+    "reserve": "8.100 S (unverändert)"
+  },
+  "entscheidungen": [
+    {
+      "frage": "",
+      "empfehlung": 0,
+      "optionen": [
+        {
+          "label": "≤ 40 Bytes",
+          "folge": "≤ 200 Bytes: Folgen für Bereiche und Beziehungen"
+        },
+        {
+          "label": "",
+          "folge": ""
+        }
+      ]
+    }
+  ],
+  "ausblick": [
+    ""
+  ],
+  "schluss": "Gegeben zu Falkenstein, am Ende des Monats ..., im Jahre 1053 nach dem Fall Bosparans.",
+  "fest": {
+    "name": "(nur wenn ein Fest in den Monat fällt, sonst Feld löschen)",
+    "text": ""
+  },
+  "geruechte": [
+    {
+      "quelle": "Herberge zum Silberbach",
+      "text": ""
+    },
+    {
+      "quelle": "Hochfeld",
+      "text": ""
+    },
+    {
+      "quelle": "Silberbach",
+      "text": ""
+    }
+  ],
+  "schreiben": [
+    {
+      "an": "Seine Erlaucht",
+      "datei": "JJJJ-MM-TT_Betreff (Brief in ../Schreiben/ mit brief_bauen.py bauen)",
+      "anlass": ""
+    }
+  ]
+}
