@@ -54,13 +54,13 @@ Ausgangswerte aus den Zustandsangaben in [F] (Schlecht = 2, Mittel = 3, Gut = 4)
 - Inbetriebnahmekosten Kaltentann (2.200–3.700 S [A] / bis 4.650 S [B] / 4.450–4.900 S [D]) und laufende Kosten (≈ 9.300–9.500 S/Jahr [A]): **offen**, siehe Quellenabgleich Nr. 2.
 - Aus [E] bleibt Kanon (Constantin, 28.10.2026): Familiengeschichte (Seitenzweig; Lehen 1019 BF an den Markgrafen heimgefallen), Varions Knappenzeit in Mythodea bei Vilmos, der **alte Vogt** (gleichgültig, Instandhaltung aufgeschoben, Verdacht auf nicht weitergeleitete Einnahmen, bei Übergabe abzulösen). Taugt für künftige Ereignisse (Vogt-Abrechnung, Altlasten), seine Schuld aber nicht festlegen.
 - Geografie (Constantin, 28.10.2026): Das Gut des **Ritters von Markwacht** liegt nördlich, zwischen Falkenstein und Elzwalde; dort steht der **Wach- und Zollturm** (nicht auf Falkenstein). Falkensteins eigener Wegzoll wird an der Herberge in Silberbach erhoben [F]. Karte folgt.
-- Mitspieler, nie ausspielen: Vilmos von Freiberg („Euer Erlaucht“), Junker von Elzwalde (Anrede **„Edler Herr“**), Ritter von Markwacht (Anrede offen).
+- Mitspieler, nie ausspielen: Vilmos von Freiberg („Euer Erlaucht“), Junker von Elzwalde (Anrede **„Edler Herr“**), Ritter von Markwacht (Anrede offen), Baron Kirschgeu („Euer Hochgeboren“ [F]).
 - Ausdruck [F] in sich uneinheitlich: S. 2 nennt noch „Turmhaus“, „Unter-Silberbach“ und vier Waffenknechte; Kirchenzehnt an Rondra (S. 2). Berichte folgen S. 1 und 3.
 - Schuld des alten Vogts: nur Verdacht [E] (Kanon bestätigt); Berichte entscheiden das nicht. Ob er inzwischen abgelöst ist, ist offen.
 
 ## Haltung der NPCs (Spielstand Gutsbericht)
 
-Der Hintergrund der Beziehungen (Kanon, Ausgespielt, Ideen) steht in `../Kontinuitaet.md`, Abschnitt 2. Hier steht nur der **Spielstand des Gutsberichts**: eine Haltung je NPC, die sich durch Berichtsereignisse und Constantins Entscheidungen verschiebt (⚑, bis bestätigt). Sie färbt künftige Ereignisse: wer hilft, wer murrt, wer Gerüchte streut. Bestätigte Verschiebungen in Kontinuitaet.md nachtragen. Mitspieler (Vilmos, Junker von Elzwalde, Ritter von Markwacht) bekommen keinen Wert.
+Der Hintergrund der Beziehungen (Kanon, Ausgespielt, Ideen) steht in `../Kontinuitaet.md`, Abschnitt 2. Hier steht nur der **Spielstand des Gutsberichts**: eine Haltung je NPC, die sich durch Berichtsereignisse und Constantins Entscheidungen verschiebt (⚑, bis bestätigt). Sie färbt künftige Ereignisse: wer hilft, wer murrt, wer Gerüchte streut. Bestätigte Verschiebungen in Kontinuitaet.md nachtragen. Mitspieler (Vilmos, Junker von Elzwalde, Ritter von Markwacht, Baron Kirschgeu) bekommen keinen Wert.
 
 Skala: −2 feindselig · −1 verstimmt · 0 abwartend · +1 gewogen · +2 treu ergeben
 
