@@ -16,7 +16,7 @@ Kurze Einträge in Varions Stimme (Ich-Form, Ritter im Mittelreich, Zwölfgötte
 - Mitspieler (Vilmos, Junker von Elzwalde, Ritter von Markwacht, Baron Kirschgeu): nur festhalten, was zwischen den Spielern ausgespielt oder schriftlich belegt ist; keine Gedanken über ihre Absichten.
 - Offenes bleibt offen (Kosten Kaltentann, bläuliche Ader, Einzelheiten der Abmachung mit Elzwalde).
 - Unter jedem Eintrag eine kurze Zeile „Grundlage“ mit Quellen und den ⚑-Stellen. Bestätigte Einträge als „bestätigt am …“ markieren.
-- Länge: etwa 150–300 Wörter je Eintrag.
+- Länge: etwa 150–300 Wörter je Eintrag. Ton und Länge des ersten Eintrags (Travia 1053) sind das Muster (bestätigt von Constantin, 28.10.2026).
 
 ## Datei
 

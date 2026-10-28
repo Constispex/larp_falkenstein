@@ -6,7 +6,7 @@ Kennzeichnung: ⚑ = Vorschlag, noch nicht von Constantin bestätigt.
 
 ## Im Monat der Travia, 1053 nach Bosparans Fall, auf Burg Falkenstein
 
-*Status: ⚑ Entwurf, wartet auf Constantins Urteil zu Ton und Länge*
+*Status: Ton und Länge von Constantin bestätigt am 28.10.2026; ⚑-Stellen weiter offen*
 
 Seit dem Rondramond bin ich Herr auf Falkenstein. Seine Erlaucht hat mir das Gut als erbliches Mannlehen übertragen, und was dem Hauptstamm meines Hauses vor über dreißig Jahren verloren ging, liegt nun in meiner Hand. In der Truhe liegen achttausendeinhundert Silbertaler, dreitausendeinhundert davon ein Geschenk Seiner Hochgeboren, des Barons Kirschgeu, zu meinem Ritterschlag.
 
