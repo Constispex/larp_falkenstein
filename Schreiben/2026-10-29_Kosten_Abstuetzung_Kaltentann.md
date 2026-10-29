@@ -1,0 +1,29 @@
+# Von der Abstützung im Stollen am Kaltentann und ihren Kosten
+
+⚑ Entwurf aus der Ratssitzung (Boron 1053 BF), noch nicht gesendet.
+
+*Anlass:* Varion will die Abstützung am Kaltentann einplanen und bittet um Klärung der Kosten: Die Schreiben [A], [B] und [D] nennen unterschiedliche Kostenrahmen, und wer die Abstützung trägt, ist nirgends geregelt.
+
+Varion von Falkenstein, Ritter zu Falkenstein an der Westmark der Markgrafschaft Freiberg, entbietet Seiner Erlaucht Vilmos von Freiberg, Markgrafen der Markgrafschaft Freiberg, seinem gnädigen Lehnsherrn, Gruß und treuen Dienst.
+
+Euer Erlaucht,
+
+mit ergebenem Dank für das Gutachten Eurer Hofmagierin, der ehrwürdigen Yalda Sternenweberin, wende ich mich an Euch. Ihr Urteil ist klar: Die Förderung am Kaltentann kann freigegeben werden, sobald der ermüdete Deckenabschnitt im hinteren Drittel des Hauptstollens mit Grubenholz aus Hochfeld abgestützt ist. Diese Abstützung will ich nun einplanen, ehe ein Mann dort zu schlagen beginnt.
+
+Bevor ich jedoch Silber aus der Reserve des Gutes binde, bitte ich Euer Erlaucht, Eure Kanzlei möge mir in folgenden Punkten Gewissheit geben:
+
+Erstens: Das Gutachten schätzt die Abstützung auf 150 bis 250 Silbertaler, zusätzlich zu den bereits veranschlagten Posten. Trägt diese Kosten das Gut Falkenstein allein, oder beteiligt sich die Markgrafschaft daran, wie sie es beim Gutachten getan hat?
+
+Zweitens: Welcher Kostenrahmen für die Inbetriebnahme gilt? Die Ausfertigung des Schürfrechts führt Posten von etwa 2.200 bis 3.700 Silbertalern auf, das Antwortschreiben des Rates spricht von 2.200 bis 4.650 Silbertalern je nach Ausbaustufe, und das Gutachten nennt als bereits veranschlagt 4.300 bis 4.650 Silbertaler. Ich bitte um die maßgebliche Summe, damit ich nicht zu knapp und nicht zu reichlich plane.
+
+Drittens: Ist die Pumpanlage für die Wasserader im zweiten Nebenstollen, die das Gutachten für notwendig hält, in diesem Rahmen bereits enthalten?
+
+Sobald ich Eure Antwort habe, lasse ich das Holz in Hochfeld schlagen und die Arbeit beginnen, und Euer Erlaucht erhält Nachricht, ehe die Förderung aufgenommen wird.
+
+Möge Praios Euer Haus erleuchten und Rondra Euren Arm stärken.
+
+*Gegeben auf Burg Falkenstein am Kaltentann, im Monat des Boron des Jahres 1053 nach Bosparans Fall.*
+
+In Treue ergeben
+
+Varion von Falkenstein, Ritter zu Falkenstein

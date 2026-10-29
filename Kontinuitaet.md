@@ -1,7 +1,7 @@
 # Kontinuität: Gut Falkenstein
 
 Fortschreibbare Übersicht. Nach jeder wichtigen Spielszene aktualisieren.
-Stand: 28.10.2026 · eine Vereinbarung ausgespielt (Szene 1).
+Stand: 29.10.2026 · Szene 1 (Elzwalde) und Szene 2 (Ratssitzung) ausgespielt.
 
 Spielerfiguren: **Varion** (Constantin). Mitspieler, nie ausspielen, Kontakt nur über Schreiben in `Schreiben/`: **Vilmos von Freiberg**, **Junker von Elzwalde**, **Ritter von Markwacht**, **Baron Kirschgeu**.
 
@@ -39,6 +39,7 @@ Ergänzend (aus [E], bestätigt):
 | Szene | Ereignis |
 |---|---|
 | 1 | Varion handelt mit dem Junker von Elzwalde **mündlich** einen Handel aus: Eisen zu guten Konditionen gegen Mannstärke beim Wiederaufbau der Mine (laut Constantin, 28.10.2026). |
+| 2 | Ratssitzung auf Burg Falkenstein, Anfang Boron 1053 BF, mit Berater, Werold, Hildeburg und Yalda (als Gast). Varion ordnet an: Turmdach **umgehend** reparieren; Schreiben an Seine Erlaucht zur Klärung der Abstützungs- und Inbetriebnahmekosten aufsetzen; Vertragsentwurf mit dem Junker von Elzwalde (Männer gegen Eisen) erstellen. |
 
 ### Offene Entscheidungen für Varion
 - Förderung am Kaltentann freigeben? (laut [D] möglich, sobald die Abstützung eingeplant ist)
@@ -59,8 +60,8 @@ Ergänzend (aus [E], bestätigt):
 | Varion ↔ Yalda | Begleitete sie in den Stollen; sie schätzt ihn wohlwollend ein [D] | – | – |
 | Varion ↔ Reinmar | Dienstlich über die Kanzlei [A][B][D] | – | – |
 | Varion ↔ Berater | Berater dient dem Haus, rät zur Vorsicht [C] | – | – |
-| Varion ↔ Hildeburg (Hochfeld) | Empfing ihn mit Brot und Honigmet; wird ihn genau beobachten [G] | – | – |
-| Varion ↔ Werold (Silberbach) | Gerechtigkeitsmensch, bot dem alten Vogt die Stirn [G] | – | – |
+| Varion ↔ Hildeburg (Hochfeld) | Empfing ihn mit Brot und Honigmet; wird ihn genau beobachten [G] | Szene 2: mahnt im Rat, dass Hochfeld für die Köhlerei Pferde und einen neuen Pflug braucht | – |
+| Varion ↔ Werold (Silberbach) | Gerechtigkeitsmensch, bot dem alten Vogt die Stirn [G] | Szene 2: bittet, neue Lasten für den Berg früh und offen anzukündigen | – |
 | Yalda ↔ Falke von Elzwalde | Scherz über den Met aus Waldrand [D]; *vermutlich* der Junker | – | – |
 
 ## 3. Zusagen, Schulden und Vereinbarungen
@@ -112,10 +113,12 @@ Ergänzend (aus [E], bestätigt):
 
 | Datum (real) | An / von | Datei | Inhalt | Status |
 |---|---|---|---|---|
-| – | – | – | – | – |
+| 29.10.2026 | an Vilmos | `Schreiben/2026-10-29_Kosten_Abstuetzung_Kaltentann` | Bitte um Klärung: wer trägt die Abstützung (150–250 S [D]), welcher Inbetriebnahmerahmen gilt [A][B][D], ist die Pumpe enthalten | Entwurf, nicht gesendet |
+| 29.10.2026 | an Junker von Elzwalde | `Schreiben/2026-10-29_Vertragsentwurf_Elzwalde` | Vertragsentwurf Männer gegen Eisen; alle Konditionen als Lücken; keine Beteiligung am Schürfrecht | Entwurf, nicht gesendet |
 
 ## 7. Szenenprotokoll
 
 | Nr. | Datum (real) | Szene / Gesprächspartner | Was ausgespielt wurde | Folgen für Kontinuität |
 |---|---|---|---|---|
 | 1 | vor dem 28.10.2026 (außerhalb dieses Threads) | Varion und der Junker von Elzwalde (Mitspieler) | Mündlicher Handel: Eisen zu guten Konditionen gegen Mannstärke beim Wiederaufbau der Mine | Erste Beziehung zum Nachbarn; Arbeitskräfte für den Kaltentann in Aussicht; Konditionen offen |
+| 2 | 29.10.2026 | Ratssitzung: Berater, Werold, Hildeburg, Yalda (Gast) | Rat nennt die drängenden Punkte (Turmdach, Bergleute, Kosten Kaltentann, Hochfelds Pflug und Pferde, offene Ankündigung neuer Lasten); Varion ordnet Turmdach umgehend, Kostenschreiben und Vertragsentwurf an | Zwei Schreiben als Entwurf in `Schreiben/`; Haltungen unverändert |
