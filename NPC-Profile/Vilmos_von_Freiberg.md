@@ -23,6 +23,8 @@ Kennzeichnung: **Belegt [Quelle]** · *Schluss* · ⚑ **Vorschlag** (nicht Kano
 - Hat einen **markgräflichen Rat**, der Varions offene Punkte „ausführlich beraten“ hat [B][C].
 - Weist Yalda an, das Gutachten zu übersenden, und wünscht ausdrücklich, dass ihr persönlicher Teil über den Aufenthalt „auch Euch erreicht“ [D].
 - Die Markgrafschaft hat einen **Obristen der Streitkräfte**, der bei ungewöhnlichen Funden zu benachrichtigen ist [A].
+- **Belegt [H]:** Antwortet Varion im Travia 1053 BF eigenhändig aus der **Markgrafenresidenz zu Freiberg** (ohne Kanzler). Anrede an Varion „Getreuer Varion“, Eröffnung „entbietet … seinen Gruß und markgräfliches Wohlwollen“, Schluss „Mit markgräflichem Wohlwollen“, Segen bei Praios, Rondra und Travia. Spricht im „Wir“-Stil.
+- **Belegt [H] (Gestaltung):** Wappen mit goldenem Greifen, schwarz-gold, Wahlspruch „Murus Imperialis“; rotes Siegel mit Greif und „V“.
 
 ## Persönlichkeit, Werte, Ziele, Sorgen
 
@@ -42,6 +44,7 @@ Die Quellen sind amtliche Schreiben; zu seiner Persönlichkeit gibt es fast nich
 
 ## Wissen
 
+- **Weiß aus Varions Bericht (Travia) [H]:** gute Ernte zu Silberbach, Aufgebotsübungen, Sturmschaden am Turmdach, drei wandernde Bergleute über den Winter gehalten, Förderung ruht. *Schluss:* Das Kostenschreiben (Boron) kannte er beim Antworten noch nicht.
 - **Weiß (belegt):** Die Verhältnisse des Gutes laut interner Beschreibung [F] (u. a. Finanzkraft 9 S/Tag, Reserve 8.100 S, Grenzzulage). Alle Bedingungen von [A] und [B]; den Inhalt des Gutachtens inklusive Teil V über Varion [D]. *Schluss:* also auch vom arkanen Schimmern und der Edelmetall-Vermutung.
 - **Vermutet / Geheim:** Nichts belegt. ⚑ **Vorschlag:** Er hat ein eigenes Interesse an einem möglichen Edelmetallfund, denn das Schürfrecht umfasst nur **Eisenerz und Kupfer** [A]. Ob ein Silber- oder Edelmetallfund unter die Verleihung fällt, ist in den Quellen nicht geregelt.
 
@@ -50,6 +53,7 @@ Die Quellen sind amtliche Schreiben; zu seiner Persönlichkeit gibt es fast nich
 - **Belegt [F]:** Lehnsherr, zahlt die Grenzzulage. Ehemaliger Dienstherr aus Mythodea [E, bestätigt]. Erwartet Treue, Heeresfolge, ehrlichen Rat und Verschwiegenheit.
 - **Belegt:** Gewährt das Schürfrecht, beantwortet die Rückfragen entgegenkommend, verzichtet auf Ansprüche am bestehenden Gerät [B].
 - *Schluss:* Wohlwollend, aber prüfend; erwartet Vertragstreue (Berichte, Zehnt, Anzeigen).
+- **Belegt [H]:** Lobt Ernte, Aufgebotsübungen und Wacht an der Weststraße („In diesen ungewissen Zeiten sind Wachsamkeit und Wehrhaftigkeit von hohem Wert“); begrüßt die Zurückhaltung beim Kaltentann; erwartet besonnenes Handeln, regelmäßige Nachricht, Ausbesserung des Turmdachs vor dem Winter, Prüfung der Bergleute und Unterrichtung vor Förderbeginn.
 
 ## Gesprächseinstiege, Anliegen, Reaktionen
 

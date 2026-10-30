@@ -1,7 +1,7 @@
 # Gutsstatus: Rittergut Falkenstein
 
 Laufender Spielstand für den monatlichen Gutsbericht. Nach jeder Ausgabe fortschreiben.
-Stand: nach Ausgabe Nr. 1 (Travia 1053 BF) · aktualisiert am 28.10.2026
+Stand: nach Ausgabe Nr. 1 (Travia 1053 BF) · aktualisiert am 30.10.2026 (Antwort des Markgrafen [H])
 
 Kennzeichnung wie im Projekt: **Belegt [Quelle]** · *Schluss* · ⚑ **Vorschlag**. Quellenkürzel siehe `../Quellenabgleich.md`.
 
@@ -13,7 +13,7 @@ Kennzeichnung wie im Projekt: **Belegt [Quelle]** · *Schluss* · ⚑ **Vorschla
 
 - **Belegt [E]:** Belehnung im Monat Rondra 1053 BF.
 - *Schluss [D]:* Yaldas Gutachten entstand im Sommer („unten im Tal längst der Sommer“), also bald nach der Belehnung.
-- ⚑ **Annahme:** Ausgabe Nr. 1 berichtet über **Travia 1053 BF**. Danach je Ausgabe ein Monat weiter. (Von Constantin noch zu bestätigen.)
+- ⚑ **Annahme:** Ausgabe Nr. 1 berichtet über **Travia 1053 BF**. Danach je Ausgabe ein Monat weiter. (Von Constantin noch zu bestätigen.) *Schluss [H]:* Die Antwort des Markgrafen auf den Travia-Bericht ist ebenfalls im Travia 1053 gegeben; das stützt die Annahme.
 - Monatsfolge: Praios · Rondra · Efferd · Travia · Boron · Hesinde · Firun · Tsa · Phex · Peraine · Ingerimm · Rahja · (Namenlose Tage) · neues Jahr mit Praios. Ein Monat hat 30 Tage.
 
 ## Bewertungsskala
@@ -30,12 +30,12 @@ Ausgangswerte aus den Zustandsangaben in [F] (Schlecht = 2, Mittel = 3, Gut = 4)
 | Steinmühle | 3 [F] | 3 | In Betrieb, Mühlstein angeschlagen, Reparatur in 1–2 Jahren [F] |
 | Forst und Köhlerei | 3 [F] | 3 | Holz und Holzkohle für die Erzschmelze [F]; Windbruch am Pfad nach Hochfeld ⚑ |
 | Steinbruch (Kalkstein) | 2 [F] | 2 | Brach, Werkzeug verrostet [F] |
-| Bergbau Kaltentann | 3 [F] | 3 | Stollen offen, Gerät veraltet [F]; Gutachten liegt vor, Förderung nicht freigegeben [D]; Kosten **offen**; Elzwalde stellt Männer für den Wiederaufbau (Abmachung, Kanon); drei wandernde Bergleute warten ⚑ |
+| Bergbau Kaltentann | 3 [F] | 3 | Stollen offen, Gerät veraltet [F]; Gutachten liegt vor, Förderung nicht freigegeben [D]; **Förderung ruht auf Weisung des Markgrafen**, bis offene Fragen geklärt und er unterrichtet ist [H]; Kosten **offen**; Elzwalde stellt Männer für den Wiederaufbau (Abmachung, Kanon); drei wandernde Bergleute warten ⚑, dürfen laut [H] bleiben, vor Arbeit am Berg Herkunft und Können prüfen |
 | Herberge und Weststraße | 4 [F] | 4 | Herberge zum Silberbach, Wegzoll, wetterfeste Einnahme [F] |
-| Burg und Befestigung | 4 *Schluss* | 4 | Ringmauer mit Torhaus, Rundturm, Wehrgang [F]; Turmdach im Sturm beschädigt, notdürftig geflickt ⚑ |
+| Burg und Befestigung | 4 *Schluss* | 4 | Ringmauer mit Torhaus, Rundturm, Wehrgang [F]; Turmdach im Sturm beschädigt, notdürftig geflickt ⚑; Markgraf verlangt Ausbesserung vor dem Winter und Bericht über den Umfang [H] |
 | Sicherheit und Wehr | 3 *Schluss* | 3 | 2 Waffenknechte (Turmwache, Straßenpatrouille), Aufgebot 10–14, tägliche und monatliche Übung [F]; Aufgebot übt besser ⚑; zu wenig Männer für die Dörfer ⚑ |
 | Bevölkerung und Stimmung | 3 *Schluss* | 3 | ca. 200 Einwohner, 27 Höfe [F]; Hildeburg beobachtet genau [G]; Silberbach dankbar ⚑, Hochfeld murrt wegen des Wolfs ⚑ |
-| Beziehungen | 4 *Schluss* | 4 | Markgraf wohlwollend [B][D], Grenzzulage an Pflichterfüllung geknüpft [F]; **mündliche Abmachung mit dem Junker von Elzwalde** (Kanon laut Constantin, 28.10.2026: Eisen zu guten Konditionen gegen Mannstärke beim Wiederaufbau der Mine; Einzelheiten offen); Kunde vom Kaltentann läuft die Weststraße entlang ⚑ |
+| Beziehungen | 4 *Schluss* | 4 | Markgraf wohlwollend [B][D], lobt Ernte, Aufgebot und Umsicht [H], Grenzzulage an Pflichterfüllung geknüpft [F]; **mündliche Abmachung mit dem Junker von Elzwalde** (Kanon laut Constantin, 28.10.2026: Eisen zu guten Konditionen gegen Mannstärke beim Wiederaufbau der Mine; Einzelheiten offen); Kunde vom Kaltentann läuft die Weststraße entlang ⚑ |
 
 ## Kasse
 
@@ -86,6 +86,8 @@ Jede Ausgabe endet mit 2–4 Entscheidungen. Claude stellt sie Constantin als Ka
 | Nr. 1 | Was geschieht mit den drei Bergleuten? | **Über den Winter halten** (28.10.2026) | Kost und Quartier ca. 12 S/Monat ab Boron; Anstellung bei Förderbeginn zugesagt; Bergleute +1, Wirt freut sich; Bergbau ▲ |
 | Nr. 1 | Was wird aus dem Turmdach vor dem Winter? | **Jetzt gründlich decken** (28.10.2026) | Dachdecker aus der Mark, ca. 50 S aus der Reserve (im Boron buchen); Burg winterfest; Waffenknechte +1 (trockenes Quartier) |
 | Nr. 1 | Wie antwortet Varion auf das Murren in Hochfeld? | **Selbst hinreiten und danken** (28.10.2026) | Varion lobt die Jäger öffentlich, 5 S Belohnung; Hildeburg zurück auf +1, Stimmung Hochfeld ▲ |
+
+Weisungen des Markgrafen [H] für den nächsten Bericht: Das gründliche Decken des Turmdachs (Entscheidung oben) erfüllt seine Weisung; der Umfang der Arbeiten ist ihm zu melden. Die Bergleute dürfen erst nach Prüfung von Herkunft, Können und Verlässlichkeit an den Berg. Keine Förderung, bevor die offenen Fragen geklärt sind und er unterrichtet ist.
 
 Zurückgestellt: Abmachung mit Elzwalde schriftlich festhalten, sobald die Spieler die Einzelheiten ausgehandelt haben.
 
