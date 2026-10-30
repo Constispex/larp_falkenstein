@@ -1,6 +1,6 @@
 # Quellenabgleich: Gut Falkenstein und Kaltentann
 
-Stand: 28.10.2026 · Grundlage: die fünf Dateien in `docs/`
+Stand: 30.10.2026 · Grundlage: die Dateien in `docs/`
 
 ## Legende
 
@@ -9,6 +9,7 @@ Stand: 28.10.2026 · Grundlage: die fünf Dateien in `docs/`
 - **[B]** `Antwortschreiben_Schuerfrecht_Falkenstein.pdf`: Klarstellungen des Rates zum Schürfrecht
 - **[C]** `Antwort_Berater_Markgraf_Kaltentann.pdf`: Dankschreiben des Beraters des Hauses Falkenstein
 - **[D]** `Gutachten_Kaltentann_fuer_Falkenstein.pdf`: Gutachten der Hofmagierin Yalda Sternenweberin
+- **[H]** `Antwort_Markgraf_Travia_1053.md` (Bild in `fotos/`): Antwort des Markgrafen Vilmos (Mitspieler) auf Varions Bericht aus dem Travia 1053 BF; gegeben zu Freiberg, Travia 1053 BF
 
 Kennzeichnung in allen Dateien: **Belegt [Quelle]** · *Schluss* (plausible Folgerung) · ⚑ **Vorschlag** (nicht Kanon, bis Constantin zustimmt)
 
@@ -100,3 +101,23 @@ Constantin hat bestätigt, dass diese Punkte aus der alten Fassung [E] **Kanon b
 - **Knappenzeit in Mythodea:** Varion trat beim großen Aufbruch nach Mythodea als Knappe in den Dienst des Markgrafen; die Belehnung ist Lohn seiner Treue; Vasalleneid bei Praios und Rondra.
 - **Der alte Vogt:** verwaltete das Gut ab 1019 BF treuhänderisch, gleichgültig und unberechenbar bei den Abgaben; schob Instandhaltung auf; **Verdacht** (nicht erwiesen), Einnahmen nicht vollständig weitergeleitet zu haben; bei Übergabe noch abzulösen.
 Weiter unklar aus [E]: Gesinde (Koch, zwei Mägde).
+
+---
+
+## Nachtrag 30.10.2026: Antwort des Markgrafen [H]
+
+Neu in `docs/`: **[H]** Antwort Seiner Erlaucht auf Varions Bericht `Schreiben/2026-10-28_Lage_am_Gut_Travia_1053`, datiert Travia 1053 BF, Markgrafenresidenz zu Freiberg. Echtes Schreiben des Mitspielers, damit Kanon.
+
+Inhalt (belegt [H]):
+- Lob für die eingebrachte Ernte zu Silberbach, die Übungen des Aufgebots und die Bewachung der Weststraße.
+- **Turmdach:** Ausbesserung noch vor dem strengen Winter, „soweit Mittel und Witterung dies erlauben“; Varion soll „zu gegebener Zeit“ über den **Umfang der Arbeiten** berichten.
+- **Kaltentann:** begrüßt, dass die Förderung nicht voreilig aufgenommen wird; das Gutachten [D] „soll gebührend berücksichtigt werden“.
+- **Drei Bergleute:** dürfen unter Varions Aufsicht bleiben; Varion soll sich vor jeder Arbeit am Kaltentann ihrer **Herkunft, Fähigkeiten und Verlässlichkeit** versichern.
+- **Förderung:** erst, wenn „die noch offenen Fragen geklärt“ und der Markgraf **darüber unterrichtet** ist; bis dahin regelmäßige Nachricht über das Gut.
+
+Abgleich:
+- *Schluss:* [H] bestätigt die Spielzeit: Varions Bericht und die Antwort stehen beide im **Travia 1053 BF**. Die Annahme in `Gutsbericht/Gutsstatus.md` (Ausgabe Nr. 1 = Travia 1053) passt.
+- *Schluss:* Vilmos nimmt die im Bericht genannten Ereignisse aus Gutsbericht Nr. 1 (Ernte zu Silberbach, Aufgebotsübung, Sturmschaden am Turmdach, drei Bergleute) als geschehen an. Ob damit Ausgabe Nr. 1 insgesamt Kanon ist, muss Constantin bestätigen.
+- Kein Widerspruch zu [A]–[D]. [H] verschärft [D]: Yalda empfiehlt die Freigabe nach Einplanung der Abstützung; der Markgraf verlangt zusätzlich, dass vorher die **offenen Fragen geklärt** sind und **er unterrichtet** ist. Welche Fragen gemeint sind, sagt [H] nicht. *Schluss:* mindestens die Kostenfragen aus dem Schreiben vom 29.10.2026 (Abstützung, Kostenrahmen, Pumpe).
+- [H] beantwortet das Kostenschreiben `Schreiben/2026-10-29_Kosten_Abstuetzung_Kaltentann` (Boron) **nicht**; Widerspruch Nr. 2 bleibt offen.
+- Neu belegt [H]: Sitz des Markgrafen „Markgrafenresidenz zu Freiberg“; Wappen auf dem Schreiben mit Greif und Wahlspruch „Murus Imperialis“; Siegel mit Greif und „V“. Anrede an Varion: „Getreuer Varion“.

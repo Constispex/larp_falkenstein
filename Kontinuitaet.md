@@ -1,11 +1,11 @@
 # Kontinuität: Gut Falkenstein
 
 Fortschreibbare Übersicht. Nach jeder wichtigen Spielszene aktualisieren.
-Stand: 29.10.2026 · Szene 1 (Elzwalde) und Szene 2 (Ratssitzung) ausgespielt.
+Stand: 30.10.2026 · Szene 1 (Elzwalde) und Szene 2 (Ratssitzung) ausgespielt; Antwort des Markgrafen [H] eingegangen.
 
 Spielerfiguren: **Varion** (Constantin). Mitspieler, nie ausspielen, Kontakt nur über Schreiben in `Schreiben/`: **Vilmos von Freiberg**, **Junker von Elzwalde**, **Ritter von Markwacht**, **Baron Kirschgeu**.
 
-Quellen: [A]–[D] Kaltentann-Schreiben · **[F] Ausdruck der Gutsbeschreibung, maßgeblich** (bestätigt 28.10.2026) · [G] `falkenstein_gesamt.html`, nur ergänzend · [E] veraltet, außer Familiengeschichte, Mythodea-Knappenzeit und altem Vogt (bestätigt 28.10.2026). Siehe `Quellenabgleich.md`. Der monatliche Spielstand des Gutes steht in `Gutsbericht/Gutsstatus.md`.
+Quellen: [A]–[D] Kaltentann-Schreiben · [H] Antwort des Markgrafen (Travia 1053) · **[F] Ausdruck der Gutsbeschreibung, maßgeblich** (bestätigt 28.10.2026) · [G] `falkenstein_gesamt.html`, nur ergänzend · [E] veraltet, außer Familiengeschichte, Mythodea-Knappenzeit und altem Vogt (bestätigt 28.10.2026). Siehe `Quellenabgleich.md`. Der monatliche Spielstand des Gutes steht in `Gutsbericht/Gutsstatus.md`.
 
 Drei Ebenen, nie vermischen:
 - **Kanon (Quellen):** steht in den Unterlagen in `docs/`
@@ -26,6 +26,7 @@ Drei Ebenen, nie vermischen:
 | ohne Datum | Rat erteilt verbindliche Klarstellungen | [B] |
 | ohne Datum | Berater dankt; rät Varion, bis zum Gutachten nicht zu investieren | [C] |
 | ohne Datum | Yalda begutachtet den Stollen vor Ort, Varion begleitet sie; das Gutachten empfiehlt die Freigabe nach Einplanung der Abstützung | [D] |
+| Travia 1053 BF | Varion berichtet dem Markgrafen (Ernte, Aufgebot, Turmdach, drei Bergleute); Vilmos antwortet aus Freiberg mit Lob und drei Weisungen: Turmdach vor dem Winter ausbessern und Umfang melden; Bergleute vor Arbeit am Kaltentann prüfen; Förderung erst nach Klärung der offenen Fragen und Unterrichtung des Markgrafen | [H] |
 
 
 Ergänzend (aus [E], bestätigt):
@@ -42,7 +43,7 @@ Ergänzend (aus [E], bestätigt):
 | 2 | Ratssitzung auf Burg Falkenstein, Anfang Boron 1053 BF, mit Berater, Werold, Hildeburg und Yalda (als Gast). Varion ordnet an: Turmdach **umgehend** reparieren; Schreiben an Seine Erlaucht zur Klärung der Abstützungs- und Inbetriebnahmekosten aufsetzen; Vertragsentwurf mit dem Junker von Elzwalde (Männer gegen Eisen) erstellen. |
 
 ### Offene Entscheidungen für Varion
-- Förderung am Kaltentann freigeben? (laut [D] möglich, sobald die Abstützung eingeplant ist)
+- Förderung am Kaltentann freigeben? (laut [D] möglich, sobald die Abstützung eingeplant ist; laut [H] **erst nach Klärung der offenen Fragen und Unterrichtung des Markgrafen**)
 - Inbetriebnahme aus der Reserve bezahlen? Reserve 8.100 S [F]; Kosten 2.200–4.900 S, je nach Quelle widersprüchlich [A][B][D].
 - Laufende Kosten ≈ 9.300–9.500 S/Jahr [A] vs. Finanzkraft 9 S/Tag (≈ 3.300 S/Jahr) [F]: Rechnet sich der Betrieb? Ohne Handelspreisliste nicht prüfbar.
 - Woher 12–18 Bergleute bei ca. 200 Einwohnern? [A][F]
@@ -53,7 +54,7 @@ Ergänzend (aus [E], bestätigt):
 
 | Zwischen | Stand (Kanon) | Ausgespielt | Idee / möglich |
 |---|---|---|---|
-| Varion ↔ Vilmos | Lehnsherr und Vasall; Grenzzulage 4 S/Tag, geknüpft an die zwei Waffenknechte an der Westmark [F]; wohlwollende Klarstellungen [B] | – | – |
+| Varion ↔ Vilmos | Lehnsherr und Vasall; Grenzzulage 4 S/Tag, geknüpft an die zwei Waffenknechte an der Westmark [F]; wohlwollende Klarstellungen [B]; lobt Varions Pflichterfüllung und Umsicht, mahnt zu Besonnenheit („Getreuer Varion“, „markgräfliches Wohlwollen“) [H] | – | – |
 | Varion ↔ Junker von Elzwalde (Mitspieler) | Nachbar östlich der Weststraße; Junker protokollarisch höher, Varion mit dem stärkeren militärischen Mandat [F][G] | Szene 1: mündlicher Handel, Eisen gegen Mannstärke | Weitere Themen laut [F][G]: Grenzfragen, Jagdrecht im Nordzipfel, Weststraße |
 | Varion ↔ Ritter von Markwacht (Mitspieler) | Nachbar im Norden, zwischen Falkenstein und Elzwalde; dort steht der Wach- und Zollturm (laut Constantin, 28.10.2026) | – | – |
 | Varion ↔ Baron Kirschgeu (Mitspieler) | Ritterschlaggeschenk 3.100 S [F] | – | – |
@@ -72,6 +73,12 @@ Ergänzend (aus [E], bestätigt):
 - **Schürfrecht [A][B]:** 20 % Bergzehnt auf den Barrenwert; vierteljährliche Berichte an die Kanzlei; ungewöhnliche Funde **unverzüglich** an Obristen und Kanzlei; Haftung für Schäden, Unfälle, Folgeschäden; Verpachtung oder Beteiligung nur nach Anzeige und Zustimmung.
 - **Entzugsgründe [B]:** Zehnthinterziehung, unterlassene Berichte oder Anzeigen, grobe Fahrlässigkeit mit Gefährdung Dritter, Felonie.
 
+### Weisungen des Markgrafen [H] (Travia 1053)
+- **Turmdach:** notwendige Ausbesserungen vor Einbruch des strengen Winters, soweit Mittel und Witterung es erlauben; **zu gegebener Zeit über den Umfang der Arbeiten berichten**.
+- **Drei Bergleute:** bleiben unter Varions Aufsicht; vor jeder Arbeit am Kaltentann **Herkunft, Fähigkeiten und Verlässlichkeit prüfen**.
+- **Kaltentann:** Förderung ruht, bis die offenen Fragen geklärt sind und der Markgraf **darüber unterrichtet** ist; das Gutachten [D] gebührend berücksichtigen.
+- **Allgemein:** besonnen handeln, **regelmäßig Nachricht** über das Gut geben.
+
 ### Zusagen an Falkenstein
 - Markgraf: Rat, Beistand, Schutz des Banners [F]; Grenzzulage 4 S/Tag [F]; kein Anspruch auf vorhandenes Gerät [B]; Verlängerung nach 10 Jahren „wohlwollend geprüft“ [B].
 - Markgrafschaft trägt die Kosten des Gutachtens [B]: **erfüllt** [D].
@@ -82,6 +89,7 @@ Ergänzend (aus [E], bestätigt):
 
 ### Offene Bitten
 - **Yalda:** bei Freilegung der bläulichen Ader benachrichtigen und vorlegen [D].
+- **Varion an den Markgrafen** (eigene Zusage im Bericht vom Travia, von [H] zur Weisung gemacht): Unterrichtung, ehe die Förderung beginnt.
 
 ### Kasse und Schulden
 - Reserve 8.100 S bei Amtsantritt, Tageskraft 9 S [F]. Laufender Stand: `Gutsbericht/Gutsstatus.md`.
@@ -102,7 +110,9 @@ Ergänzend (aus [E], bestätigt):
 ## 5. Offene Handlungsfäden und Fragen
 
 - Das arkane Schimmern in der bläulichen Kupferader: natürlich oder Edelmetall? [G] spricht von „feinen Silberspuren“. Gilt das Schürfrecht (nur Eisen und Kupfer [A]) auch dafür? Ist es als „ungewöhnlicher Fund“ anzuzeigen?
-- Widersprüchliche Kostenrahmen der Inbetriebnahme [A][B][D].
+- Widersprüchliche Kostenrahmen der Inbetriebnahme [A][B][D]; [H] äußert sich nicht dazu.
+- Welche „noch offenen Fragen“ meint der Markgraf [H]? Nicht genannt.
+- Wer sind die drei Bergleute, woher kommen sie? Muss Varion nach [H] prüfen; bisher nur ⚑ aus Gutsbericht Nr. 1.
 - Wird am Kaltentann derzeit gefördert? [F]: „seit alters im Betrieb“; [A][D]: Stillstand, Wiederaufnahme.
 - Varions Vater und Onkel [D]: war der Onkel der letzte Herr des Hauptstammes? Nicht belegt.
 - Der alte Vogt: Verdacht unvollständig weitergeleiteter Einnahmen [E], nicht erwiesen.
@@ -113,6 +123,8 @@ Ergänzend (aus [E], bestätigt):
 
 | Datum (real) | An / von | Datei | Inhalt | Status |
 |---|---|---|---|---|
+| 28.10.2026 | an Vilmos | `Schreiben/2026-10-28_Lage_am_Gut_Travia_1053` | Bericht aus dem Travia: Ernte, Aufgebot, Turmdach, drei Bergleute, Kaltentann ruht | gesendet, **beantwortet** [H] |
+| 29.10.2026 (Bild), eingegangen 30.10.2026 | von Vilmos | `docs/Antwort_Markgraf_Travia_1053` [H] | Lob; Weisungen zu Turmdach, Bergleuten und Förderung | eingegangen, Kanon |
 | 29.10.2026 | an Vilmos | `Schreiben/2026-10-29_Kosten_Abstuetzung_Kaltentann` | Bitte um Klärung: wer trägt die Abstützung (150–250 S [D]), welcher Inbetriebnahmerahmen gilt [A][B][D], ist die Pumpe enthalten | Entwurf, nicht gesendet |
 | 29.10.2026 | an Junker von Elzwalde | `Schreiben/2026-10-29_Vertragsentwurf_Elzwalde` | Vertragsentwurf Männer gegen Eisen; alle Konditionen als Lücken; keine Beteiligung am Schürfrecht | Entwurf, nicht gesendet |
 
