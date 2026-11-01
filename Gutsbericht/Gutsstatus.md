@@ -1,7 +1,7 @@
 # Gutsstatus: Rittergut Falkenstein
 
 Laufender Spielstand für den monatlichen Gutsbericht. Nach jeder Ausgabe fortschreiben.
-Stand: nach Ausgabe Nr. 1 (Travia 1053 BF) · aktualisiert am 28.10.2026
+Stand: nach Ausgabe Nr. 2 (Boron 1053 BF) · aktualisiert am 01.11.2026
 
 Kennzeichnung wie im Projekt: **Belegt [Quelle]** · *Schluss* · ⚑ **Vorschlag**. Quellenkürzel siehe `../Quellenabgleich.md`.
 
@@ -25,17 +25,17 @@ Ausgangswerte aus den Zustandsangaben in [F] (Schlecht = 2, Mittel = 3, Gut = 4)
 
 | Bereich | Ausgang | Spielstand | Lage (Spielstand) |
 |---|---|---|---|
-| Kasse und Finanzen | 4 *Schluss* | 4 | 9 S/Tag, Reserve 8.100 S [F]; Ereignisse im Travia −1 S ⚑ |
-| Felder und Ernte | 3 [G] | 3 | Silberbach gut abgeerntet ⚑; Hochfeld ⅓ brach, Pferdemangel, Pflug zerbrochen [G] |
-| Steinmühle | 3 [F] | 3 | In Betrieb, Mühlstein angeschlagen, Reparatur in 1–2 Jahren [F] |
-| Forst und Köhlerei | 3 [F] | 3 | Holz und Holzkohle für die Erzschmelze [F]; Windbruch am Pfad nach Hochfeld ⚑ |
-| Steinbruch (Kalkstein) | 2 [F] | 2 | Brach, Werkzeug verrostet [F] |
-| Bergbau Kaltentann | 3 [F] | 3 | Stollen offen, Gerät veraltet [F]; Gutachten liegt vor, Förderung nicht freigegeben [D]; Kosten **offen**; Elzwalde stellt Männer für den Wiederaufbau (Abmachung, Kanon); drei wandernde Bergleute warten ⚑ |
-| Herberge und Weststraße | 4 [F] | 4 | Herberge zum Silberbach, Wegzoll, wetterfeste Einnahme [F] |
-| Burg und Befestigung | 4 *Schluss* | 4 | Ringmauer mit Torhaus, Rundturm, Wehrgang [F]; Turmdach im Sturm beschädigt, notdürftig geflickt ⚑ |
-| Sicherheit und Wehr | 3 *Schluss* | 3 | 2 Waffenknechte (Turmwache, Straßenpatrouille), Aufgebot 10–14, tägliche und monatliche Übung [F]; Aufgebot übt besser ⚑; zu wenig Männer für die Dörfer ⚑ |
-| Bevölkerung und Stimmung | 3 *Schluss* | 3 | ca. 200 Einwohner, 27 Höfe [F]; Hildeburg beobachtet genau [G]; Silberbach dankbar ⚑, Hochfeld murrt wegen des Wolfs ⚑ |
-| Beziehungen | 4 *Schluss* | 4 | Markgraf wohlwollend [B][D], Grenzzulage an Pflichterfüllung geknüpft [F]; **mündliche Abmachung mit dem Junker von Elzwalde** (Kanon laut Constantin, 28.10.2026: Eisen zu guten Konditionen gegen Mannstärke beim Wiederaufbau der Mine; Einzelheiten offen); Kunde vom Kaltentann läuft die Weststraße entlang ⚑ |
+| Kasse und Finanzen | 4 *Schluss* | 4 | 9 S/Tag [F]; Reserve 8.050 S nach Turmdach ⚑; Ereignisse im Boron −17 S ⚑ |
+| Felder und Ernte | 3 [G] | 3 | Silberbach gut abgeerntet ⚑; Hochfeld ⅓ brach, Pferdemangel, Pflug zerbrochen [G], im Rat angemahnt (Szene 2) |
+| Steinmühle | 3 [F] | 2 | Mühlstein angeschlagen [F]; im Boron gesprungen, geklammert, mahlt langsam ⚑ |
+| Forst und Köhlerei | 3 [F] | 3 | Holz und Holzkohle für die Erzschmelze [F]; Windbruch als Schindelholz verkauft ⚑; Köhler empfindlich, weil Bergleute Grubenholz gezeichnet haben ⚑ |
+| Steinbruch (Kalkstein) | 2 [F] | 2 | Brach, Werkzeug verrostet [F]; Lagerplatz eines Pferdediebs ⚑ |
+| Bergbau Kaltentann | 3 [F] | 3 | Stollen offen, Gerät veraltet [F]; Gutachten liegt vor, Förderung nicht freigegeben [D]; Kosten **offen**; Elzwalde stellt Männer für den Wiederaufbau (Abmachung, Kanon); drei Bergleute überwintern, Stolleneingang geräumt, Grubenholz gezeichnet (nicht gefällt) ⚑ |
+| Herberge und Weststraße | 4 [F] | 4 | Herberge zum Silberbach, Wegzoll, wetterfeste Einnahme [F]; Pferdediebstahl im Stall ⚑ |
+| Burg und Befestigung | 4 *Schluss* | 4 | Ringmauer mit Torhaus, Rundturm, Wehrgang [F]; Turmdach im Boron gründlich neu gedeckt (Anordnung Szene 2) ⚑ |
+| Sicherheit und Wehr | 3 *Schluss* | 3 | 2 Waffenknechte (Turmwache, Straßenpatrouille), Aufgebot 10–14, tägliche und monatliche Übung [F]; Aufgebot übt besser ⚑; zu wenig Männer für die Dörfer ⚑; Pferdedieb an der Nordgrenze entkommen ⚑ |
+| Bevölkerung und Stimmung | 3 *Schluss* | 3 | ca. 200 Einwohner, 27 Höfe [F]; Hildeburg beobachtet genau [G]; Hochfeld nach Varions Besuch versöhnt ⚑; Silberbach murrt über die Mühle ⚑ |
+| Beziehungen | 4 *Schluss* | 4 | Markgraf wohlwollend [B][D], Grenzzulage an Pflichterfüllung geknüpft [F]; **mündliche Abmachung mit dem Junker von Elzwalde** (Kanon laut Constantin, 28.10.2026: Eisen zu guten Konditionen gegen Mannstärke beim Wiederaufbau der Mine; Einzelheiten offen); Kunde vom Kaltentann läuft die Weststraße entlang ⚑; Schreiben an Vilmos (Kosten) und Elzwalde (Vertrag) als Entwurf (Szene 2), Nachricht an Markwacht als Entwurf ⚑ |
 
 ## Kasse
 
@@ -46,6 +46,7 @@ Ausgangswerte aus den Zustandsangaben in [F] (Schlecht = 2, Mittel = 3, Gut = 4)
 | Ausgabe | Monat | Tageskraft | Ereignisse | Frei verfügbar | Reserve |
 |---|---|---|---|---|---|
 | Nr. 1 | Travia 1053 BF | +270 S | −1 S ⚑ | 269 S | 8.100 S |
+| Nr. 2 | Boron 1053 BF | +270 S | −17 S ⚑ | 253 S | 8.050 S (−50 S Turmdach) |
 
 ## Offen, nicht festlegen
 
@@ -66,12 +67,12 @@ Skala: −2 feindselig · −1 verstimmt · 0 abwartend · +1 gewogen · +2 treu
 
 | NPC | Haltung | Letzte Änderung |
 |---|---|---|
-| Hildeburg (Hochfeld) | +1 | Nr. 1: erst auf 0 (Wolf), nach Varions Besuch und Dank wieder +1 |
-| Werold (Silberbach) | +1 | Nr. 1: Brot ans Burgtor nach guter Ernte ⚑ |
+| Hildeburg (Hochfeld) | +1 | Nr. 2: Dank in Hochfeld gut aufgenommen; erwartet Pflug und Zugtiere und will vor Eingriffen in ihren Wald gefragt werden |
+| Werold (Silberbach) | +1 | Nr. 2: besorgt wegen der Mühle, erwartet offene Ankündigung (wie Szene 2) |
 | Waffenknecht I (Turmwache) | +1 | Nr. 1: Turmdach wird gedeckt, trockenes Quartier |
 | Waffenknecht II (Straßenpatrouille) | +1 | Nr. 1: Turmdach wird gedeckt, trockenes Quartier |
 | Die drei wandernden Bergleute ⚑ | +1 | Nr. 1: über den Winter gehalten, Anstellung zugesagt |
-| Wirt der Herberge zum Silberbach | +1 | Ausgang [D] |
+| Wirt der Herberge zum Silberbach | +1 | Nr. 2: gekränkt über den Diebstahl in seinem Stall; hängt an der Antwort Varions |
 | Yalda Sternenweberin | +1 | Ausgang [D] |
 | Reinmar von Sturmfeld | 0 | Ausgang [A][B][D] |
 | Berater des Hauses | +1 | Ausgang [C] |
@@ -87,6 +88,12 @@ Jede Ausgabe endet mit 2–4 Entscheidungen. Claude stellt sie Constantin als Ka
 | Nr. 1 | Was wird aus dem Turmdach vor dem Winter? | **Jetzt gründlich decken** (28.10.2026) | Dachdecker aus der Mark, ca. 50 S aus der Reserve (im Boron buchen); Burg winterfest; Waffenknechte +1 (trockenes Quartier) |
 | Nr. 1 | Wie antwortet Varion auf das Murren in Hochfeld? | **Selbst hinreiten und danken** (28.10.2026) | Varion lobt die Jäger öffentlich, 5 S Belohnung; Hildeburg zurück auf +1, Stimmung Hochfeld ▲ |
 
+| Nr. 2 | Was geschieht mit dem gesprungenen Mühlstein? | offen (Rat: Steinmetz holen lassen) | |
+| Nr. 2 | Was bekommt Hochfeld für Pflug und Zugtiere? | offen (Rat: Pflug aus der Burgschmiede) | |
+| Nr. 2 | Wie antwortet Varion auf den Diebstahl im Stall? | offen (Rat: Nachtwache im Stall stellen) | |
+
+Ausgeführt im Boron (Nr. 2): Bergleute überwintern (−12 S), Turmdach gedeckt (−50 S Reserve), Dank in Hochfeld (−5 S).
+
 Zurückgestellt: Abmachung mit Elzwalde schriftlich festhalten, sobald die Spieler die Einzelheiten ausgehandelt haben.
 
 ## Ausgaben
@@ -94,3 +101,4 @@ Zurückgestellt: Abmachung mit Elzwalde schriftlich festhalten, sobald die Spiel
 | Nr. | Monat | Datei | Ereignisse | Status |
 |---|---|---|---|---|
 | 1 | Travia 1053 BF | `Ausgaben/Nr01_Travia_1053` | Erntedank · Aufgebotsübung · Bergleute in der Herberge · Herbststurm · Wolf bei Hochfeld; Schreiben an Vilmos (Entwurf) | ⚑ unbestätigt |
+| 2 | Boron 1053 BF | `Ausgaben/Nr02_Boron_1053` | Turmdach gedeckt · Varion in Hochfeld · Bergleute im Winterquartier · Mühlstein gesprungen · Pferdedieb; Schreiben an den Ritter von Markwacht (Entwurf) | ⚑ unbestätigt |

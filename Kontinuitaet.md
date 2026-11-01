@@ -115,6 +115,7 @@ Ergänzend (aus [E], bestätigt):
 |---|---|---|---|---|
 | 29.10.2026 | an Vilmos | `Schreiben/2026-10-29_Kosten_Abstuetzung_Kaltentann` | Bitte um Klärung: wer trägt die Abstützung (150–250 S [D]), welcher Inbetriebnahmerahmen gilt [A][B][D], ist die Pumpe enthalten | Entwurf, nicht gesendet |
 | 29.10.2026 | an Junker von Elzwalde | `Schreiben/2026-10-29_Vertragsentwurf_Elzwalde` | Vertragsentwurf Männer gegen Eisen; alle Konditionen als Lücken; keine Beteiligung am Schürfrecht | Entwurf, nicht gesendet |
+| 01.11.2026 | an Ritter von Markwacht | `Schreiben/2026-11-01_Pferdedieb_an_der_Weststrasse` | Gutsbericht Nr. 2 (⚑): Pferdedieb flieht nach Norden, Bitte um Aufmerksamkeit der Wache am Zollturm | Entwurf, nicht gesendet |
 
 ## 7. Szenenprotokoll
 

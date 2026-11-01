@@ -1,0 +1,331 @@
+{
+  "nr": 2,
+  "monat": "Boron",
+  "jahr": "1053 BF",
+  "titel": "Bericht über das Rittergut Falkenstein im Monat des Boron",
+  "verfasser": "Aufgezeichnet von der Schreibstube zu Falkenstein",
+  "anrede": "Euer Wohlgeboren,",
+  "einleitung": "der Boron hat die Tage kurz gemacht. Morgens liegt Nebel im Tal von Silberbach, die Waldpfade nach Hochfeld sind schlammig, und auf der Großen Weststraße fahren nur noch wenige Wagen. Zu Beginn des Monats habt Ihr den Rat auf der Burg versammelt und Eure Anordnungen gegeben. Was danach geschah, sei hier verzeichnet.",
+  "ereignisse": [
+    {
+      "titel": "Das Turmdach wird gedeckt",
+      "art": "gut",
+      "text": "Wie Ihr im Rat angeordnet habt, kamen in der ersten Woche zwei Dachdecker aus der Mark. Sie haben das Dach des Rundturms bis auf die Sparren abgedeckt, zwei morsche Balken ersetzt und mit neuen Schindeln gedeckt, ehe die Herbstregen einsetzten. Das Holz für die Schindeln schlugen die Hochfelder am Windbruch vom Travia und bekamen es bezahlt. Die beiden Waffenknechte schlafen wieder trocken, und der Turmwächter sagt, im zweiten Geschoss rieche es zum ersten Mal nicht nach Moder.",
+      "wirkungen": [
+        {
+          "bereich": "Burg und Befestigung",
+          "richtung": "+",
+          "notiz": "Turm winterfest gedeckt"
+        },
+        {
+          "bereich": "Sicherheit und Wehr",
+          "richtung": "+",
+          "notiz": "Wachstube trocken, Waffen rosten nicht"
+        },
+        {
+          "bereich": "Forst und Köhlerei",
+          "richtung": "+",
+          "notiz": "Windbruch als Schindelholz verkauft"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "-",
+          "notiz": "Dachdecker und Holz, 50 S aus der Reserve"
+        }
+      ]
+    },
+    {
+      "titel": "Der Herr in Hochfeld",
+      "art": "gut",
+      "text": "Ihr seid nach Hochfeld geritten und habt den beiden Jägern, die den Wolf erlegt hatten, vor dem Gutshaus gedankt und jedem Silber in die Hand gegeben. Hildeburg hat das Brot selbst gebrochen und vor allen gesagt, so habe es seit den alten Herren keiner mehr getan. Danach führte sie Euch zur Scheune und zeigte den zerbrochenen Pflug und den leeren Stall, wie sie es schon im Rat angemahnt hatte: Ohne Zugtiere bleibt das brache Drittel der Felder auch im Frühjahr brach, und die Köhler müssen die Kohle selbst zu Tal tragen.",
+      "wirkungen": [
+        {
+          "bereich": "Bevölkerung und Stimmung",
+          "richtung": "+",
+          "notiz": "Hochfeld versöhnt"
+        },
+        {
+          "bereich": "Felder und Ernte",
+          "richtung": "o",
+          "notiz": "Pflug und Zugtiere fehlen weiter"
+        },
+        {
+          "bereich": "Forst und Köhlerei",
+          "richtung": "o",
+          "notiz": "Kohle wird mühsam getragen"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "-",
+          "betrag": -5,
+          "notiz": "Belohnung der Jäger"
+        }
+      ]
+    },
+    {
+      "titel": "Die Bergleute im Winterquartier",
+      "art": "gemischt",
+      "text": "Die drei Bergleute bleiben, wie Ihr entschieden habt, auf Kosten des Gutes in der Herberge zum Silberbach. Müßig sitzen wollten sie nicht: Mit Eurer Erlaubnis haben sie den Stolleneingang am Kaltentann von Laub und Geröll befreit und im Hochfelder Wald Tannen gezeichnet, die als Grubenholz für die Abstützung taugen. Gefällt ist noch nichts, und gefördert wird nicht. Die Köhler sahen die fremden Zeichen an ihren Bäumen nicht gern; Hildeburg hat die Sache mit einem Krug Bier geschlichtet, aber sie will gefragt werden, ehe jemand ihren Wald verplant.",
+      "wirkungen": [
+        {
+          "bereich": "Bergbau Kaltentann",
+          "richtung": "+",
+          "notiz": "Eingang frei, Grubenholz ausgesucht"
+        },
+        {
+          "bereich": "Herberge und Weststraße",
+          "richtung": "+",
+          "notiz": "feste Wintergäste"
+        },
+        {
+          "bereich": "Forst und Köhlerei",
+          "richtung": "-",
+          "notiz": "Köhler fühlen sich übergangen"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "-",
+          "betrag": -12,
+          "notiz": "Kost und Quartier"
+        }
+      ]
+    },
+    {
+      "titel": "Ein Sprung im Mühlstein",
+      "art": "schlecht",
+      "text": "In der zweiten Woche ist der angeschlagene Läuferstein der Steinmühle bis zur Mitte gesprungen. Der Müller hat ihn mit Eisenklammern gefasst, drei Tage stand die Mühle still, und Silberbach musste mit Handmühlen mahlen. Seither läuft sie wieder, aber langsamer, und das Mehl knirscht. Werold kam selbst zur Burg: Der Mahlzwang sei gerecht, solange die Mühle des Herrn gutes Mehl mahle. Er bittet, dass man den Leuten früh sage, wie es weitergeht.",
+      "wirkungen": [
+        {
+          "bereich": "Steinmühle",
+          "richtung": "-",
+          "notiz": "Läuferstein gesprungen, notdürftig geklammert"
+        },
+        {
+          "bereich": "Bevölkerung und Stimmung",
+          "richtung": "-",
+          "notiz": "Silberbach murrt über den Mahlzwang"
+        },
+        {
+          "bereich": "Felder und Ernte",
+          "richtung": "o",
+          "notiz": "Korn liegt länger im Speicher"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "-",
+          "betrag": -6,
+          "notiz": "Klammern und Schmiedearbeit"
+        }
+      ]
+    },
+    {
+      "titel": "Ein Pferdedieb an der Weststraße",
+      "art": "schlecht",
+      "text": "In der dritten Woche wurde aus dem Stall der Herberge zum Silberbach bei Nacht das Pferd eines Tuchhändlers gestohlen. Der Waffenknecht auf Straßenpatrouille fand die Spur am Morgen und folgte ihr nach Norden bis an die Grenze Eures Gutes; unterwegs fand er im verlassenen Kalksteinbruch die Asche eines Lagerfeuers, an der Grenze aber musste er umkehren, um die Straße nicht unbewacht zu lassen. Der Wirt ist gekränkt, denn sein Stall galt als sicher, und der Händler hat laut gesagt, an der Westmark schlafe die Wache. Ein Schreiben an den Ritter von Markwacht, auf dessen Gut der Wach- und Zollturm steht, liegt bei.",
+      "wirkungen": [
+        {
+          "bereich": "Sicherheit und Wehr",
+          "richtung": "-",
+          "notiz": "Dieb entkommen, die Wache reicht nicht weit"
+        },
+        {
+          "bereich": "Herberge und Weststraße",
+          "richtung": "-",
+          "notiz": "Ruf des Stalls leidet"
+        },
+        {
+          "bereich": "Beziehungen",
+          "richtung": "o",
+          "notiz": "Nachricht an den Ritter von Markwacht"
+        },
+        {
+          "bereich": "Steinbruch (Kalkstein)",
+          "richtung": "o",
+          "notiz": "der Dieb lagerte im verlassenen Bruch"
+        },
+        {
+          "bereich": "Kasse und Finanzen",
+          "richtung": "+",
+          "betrag": 6,
+          "notiz": "Wegzoll trotz wenig Verkehr"
+        }
+      ]
+    }
+  ],
+  "bereiche": [
+    {
+      "name": "Kasse und Finanzen",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "Reserve um 50 S für das Dach vermindert"
+    },
+    {
+      "name": "Felder und Ernte",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Winterruhe; Hochfeld fehlen Pflug und Zugtiere"
+    },
+    {
+      "name": "Steinmühle",
+      "vorher": 3,
+      "nachher": 2,
+      "lage": "Läuferstein gesprungen, geklammert, mahlt langsam"
+    },
+    {
+      "name": "Forst und Köhlerei",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Windbruch verwertet, Köhler empfindlich"
+    },
+    {
+      "name": "Steinbruch (Kalkstein)",
+      "vorher": 2,
+      "nachher": 2,
+      "lage": "brach, dient Gesindel als Lager"
+    },
+    {
+      "name": "Bergbau Kaltentann",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Eingang frei, Grubenholz gezeichnet; nicht freigegeben"
+    },
+    {
+      "name": "Herberge und Weststraße",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "ruhige Jahreszeit, Diebstahl im Stall"
+    },
+    {
+      "name": "Burg und Befestigung",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "Turm neu gedeckt, winterfest"
+    },
+    {
+      "name": "Sicherheit und Wehr",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "trockene Wachstube, aber Dieb entkommen"
+    },
+    {
+      "name": "Bevölkerung und Stimmung",
+      "vorher": 3,
+      "nachher": 3,
+      "lage": "Hochfeld versöhnt, Silberbach murrt über die Mühle"
+    },
+    {
+      "name": "Beziehungen",
+      "vorher": 4,
+      "nachher": 4,
+      "lage": "Schreiben an Vilmos und Elzwalde liegen bereit; Nachricht an Markwacht"
+    }
+  ],
+  "kasse": {
+    "zeilen": [
+      [
+        "Tageskraft (30 Tage zu 9 S)",
+        "+270 S"
+      ],
+      [
+        "Ereignisse des Monats",
+        "−17 S"
+      ],
+      [
+        "Frei verfügbar im Boron",
+        "253 S"
+      ]
+    ],
+    "reserve": "8.050 S (50 S für das Turmdach entnommen)"
+  },
+  "entscheidungen": [
+    {
+      "frage": "Was geschieht mit dem gesprungenen Mühlstein?",
+      "empfehlung": 0,
+      "optionen": [
+        {
+          "label": "Steinmetz holen lassen",
+          "folge": "Ein Steinmetz aus der Mark schätzt einen neuen Läufer, etwa 10 S für Reise und Lohn. Werold ist zufrieden, dass offen geplant wird; die Kosten des Steins bleiben offen."
+        },
+        {
+          "label": "Geklammert weitermahlen",
+          "folge": "Keine Kosten jetzt. Bricht der Stein im Winter ganz, steht die Mühle wochenlang, und Silberbach verliert das Vertrauen in den Mahlzwang."
+        },
+        {
+          "label": "Mahlzwang aussetzen",
+          "folge": "Silberbach darf bis zur Reparatur selbst mahlen. Werold und das Dorf sind Euch dankbar; das Mühlengeld fällt bis dahin weg."
+        }
+      ]
+    },
+    {
+      "frage": "Was bekommt Hochfeld für Pflug und Zugtiere?",
+      "empfehlung": 0,
+      "optionen": [
+        {
+          "label": "Pflug aus der Burgschmiede",
+          "folge": "Die Schmiede fertigt bis Peraine einen neuen Pflug, etwa 15 S für Eisen. Hildeburg ist zufrieden; Zugtiere fehlen weiter."
+        },
+        {
+          "label": "Pflug und ein Zugpferd",
+          "folge": "Dazu ein Pferd vom Markt, Preis noch zu erfragen, aus der Reserve. Hildeburg wird Euch treu ergeben, Felder und Köhlerei im Frühjahr besser."
+        },
+        {
+          "label": "Auf das Eisen vertrösten",
+          "folge": "Keine Kosten jetzt; Pflug, sobald der Kaltentann fördert. Hildeburg ist verstimmt und erinnert Euch im Rat daran."
+        }
+      ]
+    },
+    {
+      "frage": "Wie antwortet Varion auf den Diebstahl im Stall?",
+      "empfehlung": 0,
+      "optionen": [
+        {
+          "label": "Nachtwache im Stall stellen",
+          "folge": "Ein Knecht des Wirts wacht nachts, das Gut trägt etwa 4 S im Monat. Der Wirt ist versöhnt, die Händler hören, dass Falkenstein wacht."
+        },
+        {
+          "label": "Patrouille nachts in Silberbach",
+          "folge": "Der Waffenknecht reitet nachts statt am Tag. Der Stall ist sicher, aber tags ist die Straße dünner bewacht; der Wirt ist dankbar."
+        },
+        {
+          "label": "Sache dem Wirt überlassen",
+          "folge": "Keine Kosten. Der Wirt ist verstimmt, und an der Straße heißt es weiter, an der Westmark schlafe die Wache."
+        }
+      ]
+    }
+  ],
+  "ausblick": [
+    "Die Schreiben aus dem Rat an Seine Erlaucht (Kosten der Abstützung) und an den Junker von Elzwalde (Vertragsentwurf) liegen zur Absendung bereit.",
+    "Im Hesinde beginnt der Winter; Holzkohle und Brennholz für die Burg sollten vor dem ersten Schnee eingebracht sein.",
+    "Das Grubenholz am Kaltentann ist gezeichnet; gefällt wird erst, wenn Ihr die Abstützung freigebt."
+  ],
+  "schluss": "Gegeben zu Falkenstein, am Ende des Monats des Boron, im Jahre 1053 nach dem Fall Bosparans. Boron schenke den Toten Frieden und den Lebenden ruhigen Schlaf.",
+  "schreiben": [
+    {
+      "an": "Seine Wohlgeboren den Ritter von Markwacht",
+      "datei": "2026-11-01_Pferdedieb_an_der_Weststrasse",
+      "anlass": "Pferdedieb flieht nach Norden auf Markwacht zu (Ereignis V); Bitte, die Wache am Zollturm aufmerksam zu machen."
+    }
+  ],
+  "fest": {
+    "name": "Gedenken an die Toten",
+    "text": "Im Monat des Schweigenden Gottes stellten die Leute in beiden Dörfern Lichter auf die Gräber und ließen eine Schale Brei vor der Tür stehen, für die, die nicht mehr am Tisch sitzen. In Hochfeld sprach Hildeburg die Namen aller Toten des Jahres vor der Praios-Kapelle, in Silberbach blieb die Herberge an diesem Abend still. Die Alten erzählen, früher habe auch auf der Burg ein Licht für die Toten des Hauses Falkenstein gebrannt, und sie sahen in dieser Nacht lange zum Turm hinauf."
+  },
+  "geruechte": [
+    {
+      "quelle": "Herberge zum Silberbach",
+      "text": "Der Pferdedieb sei kein Fremder gewesen: Wer den Riegel am Stall so leise hebe, kenne ihn. Der Wirt will davon nichts hören."
+    },
+    {
+      "quelle": "Hochfeld, bei den Köhlern",
+      "text": "Seit die Bergleute am Kaltentann waren, will ein Köhlerjunge nachts ein Klopfen aus dem Berg gehört haben. Die Bergleute sagen, das sei nur Wasser im Fels, aber sie haben dabei nicht gelacht."
+    },
+    {
+      "quelle": "Silberbach, am Mühlbach",
+      "text": "Die alte Müllerin behauptet, der Läuferstein sei schon unter dem Vogt einmal gesprungen und nur mit Kitt verschmiert worden. Ob das stimmt, weiß keiner."
+    },
+    {
+      "quelle": "Weststraße",
+      "text": "Fuhrleute fragen in der Herberge, ob es am Kaltentann im Frühjahr Arbeit für Wagen und Ochsen gibt. Man kennt den Namen Falkenstein jetzt bis nach Freiberg."
+    }
+  ]
+}

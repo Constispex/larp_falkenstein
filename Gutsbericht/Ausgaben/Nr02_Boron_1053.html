@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Bericht über das Rittergut Falkenstein im Monat des Boron</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root { --tinte: #2b1d10; --rot: #7a1c12; --gold: #a07a2c; --rand: #c9ad78; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #efe0bc; }
+  body { padding: 0 22mm; font-family: "IM Fell English", "Palatino Linotype", Georgia, serif; color: var(--tinte); font-size: 11.6pt; line-height: 1.42; }
+  /* Pergament und Rahmen: position fixed wiederholt sich auf jeder gedruckten Seite */
+  .pergament { position: fixed; inset: 0; z-index: -1;
+    background:
+      radial-gradient(ellipse at 15% 8%, rgba(255,250,235,.8), transparent 50%),
+      radial-gradient(ellipse at 88% 92%, rgba(150,110,50,.25), transparent 55%),
+      radial-gradient(ellipse at 92% 10%, rgba(140,100,40,.14), transparent 40%),
+      #efe0bc; }
+  .rahmen { position: fixed; inset: 9mm; border: 1.6pt solid var(--rand); pointer-events: none; }
+  .rahmen::before { content: ""; position: absolute; inset: 2.6mm; border: .6pt solid var(--rand); }
+  .rahmen::after { content: "❦"; position: absolute; top: -3mm; left: 50%; transform: translateX(-50%); background: #f0e2c0; padding: 0 3mm; color: var(--gold); font-size: 14pt; line-height: 1; }
+  /* Kopf- und Fußabstand je Seite über wiederholte Tabellenkopf- und -fußzeilen */
+  table.seite { width: 100%; border-collapse: collapse; font-size: inherit; }
+  table.seite > thead td { height: 19mm; padding: 0; border: 0; }
+  table.seite > tfoot td { height: 17mm; padding: 0; border: 0; }
+  table.seite > tbody > tr > td { padding: 0; border: 0; }
+  .neue-seite { break-before: page; }
+  .kopf { text-align: center; margin-bottom: 5mm; }
+  svg.wappen { width: 15mm; height: 18mm; display: block; margin: 0 auto 1.5mm; }
+  .mark { font-family: "IM Fell English SC", serif; letter-spacing: .18em; font-size: 9.5pt; color: var(--gold); }
+  h1 { font-family: "UnifrakturMaguntia", serif; font-weight: normal; color: var(--rot); font-size: 30pt; margin: 2mm 0 0; line-height: 1.05; }
+  h1.klein { font-size: 24pt; }
+  .unter { font-style: italic; font-size: 12.5pt; margin-top: 1.5mm; }
+  .zier { color: var(--gold); letter-spacing: .5em; margin: 2mm 0 1mm; }
+  .verfasser { font-family: "IM Fell English SC", serif; font-size: 9.5pt; letter-spacing: .08em; }
+  .anrede { font-style: italic; margin: 4mm 0 1mm; }
+  .einleitung { text-align: justify; }
+  .initial { float: left; font-family: "UnifrakturMaguntia", serif; color: var(--rot); font-size: 40pt; line-height: .8; margin: 1.5mm 2mm 0 0; }
+  h2 { font-family: "IM Fell English SC", serif; font-weight: normal; color: var(--rot); text-align: center; font-size: 14pt; letter-spacing: .12em; margin: 4.5mm 0 1.5mm; }
+  h2 { break-after: avoid; }
+  h2::before, h2::after { content: " ✦ "; color: var(--gold); font-size: 10pt; }
+  .ereignis { margin: 0 0 3.2mm; padding-left: 3.5mm; border-left: 2pt solid var(--rand); break-inside: avoid; }
+  .ereignis.gut { border-left-color: #6f7a3a; }
+  .ereignis.schlecht { border-left-color: var(--rot); }
+  .ereignis.gemischt { border-left-color: var(--gold); }
+  .ereignis h3 { margin: 0 0 .8mm; font-size: 12.5pt; font-weight: normal; }
+  .ereignis h3 .nr { font-family: "UnifrakturMaguntia", serif; color: var(--rot); }
+  .art { font-family: "IM Fell English SC", serif; font-size: 8.5pt; letter-spacing: .1em; color: var(--gold); margin-left: 1.5mm; }
+  .ereignis p { margin: 0 0 1mm; text-align: justify; }
+  ul.wirk { list-style: none; margin: 0; padding: 0; font-size: 9.6pt; columns: 2; column-gap: 6mm; }
+  ul.wirk li { break-inside: avoid; }
+  .pf { font-size: 8pt; }
+  .pf.\+ { color: #4f6a1f; } .pf.- { color: var(--rot); } .pf.o { color: var(--gold); }
+  table.bereiche { width: 100%; border-collapse: collapse; font-size: 9.8pt; break-inside: avoid; }
+  table.bereiche th { font-family: "IM Fell English SC", serif; font-weight: normal; color: var(--rot); border-bottom: 1pt solid var(--rand); text-align: left; padding: 1mm 1.5mm; }
+  table.bereiche td { padding: .9mm 1.5mm; border-bottom: .4pt dotted var(--rand); vertical-align: top; }
+  td.pfe { white-space: nowrap; font-size: 8.5pt; color: var(--gold); }
+  td.stufe { white-space: nowrap; color: var(--rot); font-size: 9pt; }
+  td.stufe small { color: var(--tinte); font-style: italic; }
+  table.kasse { margin: 1mm auto 0; border-collapse: collapse; font-size: 11pt; }
+  table.kasse td { padding: .6mm 4mm; border-bottom: .4pt dotted var(--rand); }
+  table.kasse td:last-child { text-align: right; }
+  table.kasse tr:last-child td { color: var(--rot); border-bottom: 0; }
+  .reserve { text-align: center; margin-top: 1.5mm; }
+  .reserve b { color: var(--rot); }
+  .zwei { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; break-inside: avoid; }
+  .zwei ul { margin: 0; padding-left: 5mm; }
+  section.fest { margin: 0 0 2mm; padding: 2mm 4mm; border: .6pt solid var(--rand); border-radius: 1mm; background: rgba(255,250,235,.35); break-inside: avoid; }
+  section.fest h3 { margin: 0 0 .8mm; font-family: "UnifrakturMaguntia", serif; font-weight: normal; color: var(--rot); font-size: 14pt; }
+  section.fest p { margin: 0; text-align: justify; font-style: italic; }
+  p.beilage { clear: both; text-align: center; font-family: "IM Fell English SC", serif; color: var(--rot); font-size: 10pt; margin: 2mm 0 0; }
+  p.hinweis { text-align: center; font-style: italic; font-size: 9.5pt; margin: 0 0 1.5mm; color: #6b5636; }
+  ul.geruechte { list-style: none; padding: 0; margin: 0; }
+  ul.geruechte li { margin-bottom: 1.4mm; padding-left: 5mm; text-indent: -5mm; break-inside: avoid; }
+  ul.geruechte li::before { content: "❧ "; color: var(--gold); }
+  span.quelle { font-family: "IM Fell English SC", serif; color: var(--rot); }
+  ul.entscheid { list-style: none; padding: 0; margin: 0; }
+  ul.entscheid li.frage { margin-bottom: 2mm; break-inside: avoid; }
+  ol.optionen { list-style: none; padding-left: 5mm; margin: .5mm 0 0; font-size: 10pt; }
+  ol.optionen li { margin-bottom: .4mm; }
+  ol.optionen b { color: var(--rot); font-weight: normal; font-family: "IM Fell English SC", serif; }
+  ul.ausblick { margin: 0; padding-left: 5mm; columns: 1; }
+  .schluss { text-align: center; font-style: italic; margin-top: 6mm; padding-left: 23mm; }
+  .ot { clear: both; }
+  .siegel {
+    float: right; margin: 4mm 0 2mm 5mm; width: 18mm; height: 18mm; border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #b8382a, #7a1c12 60%, #5a120b);
+    color: #f1d9b0; font-family: "UnifrakturMaguntia", serif; font-size: 18pt;
+    display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 1.5mm rgba(122,28,18,.25);
+  }
+  .ot { margin-top: 3mm; font-size: 7.5pt; color: #7d6747; font-family: Georgia, serif; }
+  .legende { font-size: 8.5pt; text-align: center; color: #6b5636; margin-top: 2mm; }
+  .schreiben p { text-align: justify; }
+  .gruss { margin-top: 6mm; font-style: italic; }
+  .unterschrift { margin-top: 12mm; width: 80mm; font-size: 10.5pt; }
+  .linie { border-top: .8pt solid var(--tinte); margin-bottom: 1mm; }
+</style>
+</head>
+<body>
+<div class="pergament"></div><div class="rahmen"></div>
+<table class="seite"><thead><tr><td></td></tr></thead><tfoot><tr><td></td></tr></tfoot><tbody><tr><td><div>
+  <div class="kopf">
+    <!-- Wappen Falkenstein (Constantin, 28.10.2026): geviert blau-silber mit einem Falken (Korrektur: kein Karomuster). Reihenfolge der Felder (hier 1 und 4 blau) und Farbe des Falken nicht festgelegt. Farbe des Falken nicht festgelegt, hier dunkel. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" class="wappen" aria-label="Wappen Falkenstein: geviert blau-silber, ein Falke" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiYmZhOTNjNi0zYTJjLTRlODItOWEwOC00YzA1NjdjYzljZjAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIV7zUpMlkgYJhJ8Zvhzhd0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmZWFkNTg3ZS01ODk3LTQ5NmQtYTcwMC00ZjE1ZjQxYjE3M2VscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNomwzdE3FFqIZiCcn+0dGqcQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggWwNw/jm27d83GwnR0GJGS2aEUhiuPsMazAjinF1v2mqkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaFwVXhXgxqZZjksH4o1+72MAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIISmKF09KjsJRaa+aYOBaQ41gB9H0hxVj7SR1Bw6gq+LZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQHHZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmJiZmE5M2M2LTNhMmMtNGU4Mi05YTA4LTRjMDU2N2NjOWNmMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjMzMGVjYjQ3LTFiNDQtNDRhZC1iYTYwLWU2ZDliOWY2Y2Q2YnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBbA3D+Obbt3zcbCdHQYkZLZoRSGK4+wxrMCOKcXW/aaqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgggP0VYu+K5fDJ754In7+/TCJqDZ+/gvSuianbt6TNiOmiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggGwyQ64CVEsIrzjX46nMN6hVm9XjMt5olUQ20em2I/rd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQMN0yNFiZDL1KrSGfXU/Yedq5ah1jFF4JV2BUF+fQT8Rcz2WGHVtzuJ/SbyA1uxuS5pVpFmanb/BjgLsIL7Yfs0=</c2pa:manifest></metadata>
+<defs>
+<clipPath id="schild"><path d="M5 5 H95 V55 C95 88 72 106 50 115 C28 106 5 88 5 55 Z"/></clipPath></defs>
+<g clip-path="url(#schild)"><rect x="0" y="0" width="50" height="55" fill="#2b4f8c"/><rect x="50" y="0" width="50" height="55" fill="#e9e6df"/><rect x="0" y="55" width="50" height="65" fill="#e9e6df"/><rect x="50" y="55" width="50" height="65" fill="#2b4f8c"/></g>
+<g clip-path="url(#schild)"><g fill="#2a1a10" stroke="#e9e6df" stroke-width="1.4" stroke-linejoin="round">
+  <!-- Körper und Flügel, aufrecht sitzend, Blick nach heraldisch rechts (Betrachter links) -->
+  <path d="M44 20
+           C50 17 57 19 59 25
+           C60 29 59 32 57 35
+           C63 40 67 49 67 60
+           C67 71 63 80 57 86
+           L63 104 L55 99 L52 106 L49 98 L45 104 L44 90
+           C38 86 34 79 33 70
+           C32 60 35 50 40 43
+           C40 40 39 37 38 35
+           L33 37 C32 34 33 31 36 30
+           L35 27 C37 23 40 21 44 20 Z"/>
+  <!-- Flügelkante -->
+  <path d="M56 40 C61 52 61 70 55 86" fill="none" stroke="#e9e6df" stroke-width="1.2"/>
+  <path d="M55 52 L60 50 M56 60 L61 58 M56 68 L61 67 M55 76 L60 76" fill="none" stroke="#e9e6df" stroke-width="0.9"/>
+  <!-- Bartstreif und Auge -->
+  <path d="M42 28 C41 32 41 35 43 37" fill="none" stroke="#e9e6df" stroke-width="1.3"/>
+  <circle cx="43" cy="26" r="1.7" fill="#e9e6df" stroke="none"/>
+  <!-- Fänge -->
+  <path d="M41 92 L36 97 M41 92 L39 99 M47 93 L44 99" fill="none" stroke="#2a1a10" stroke-width="2.2" stroke-linecap="round"/>
+</g>
+</g>
+<path d="M5 5 H95 V55 C95 88 72 106 50 115 C28 106 5 88 5 55 Z" fill="none" stroke="#2a1a10" stroke-width="2.5"/></svg>
+
+    <div class="mark">Haus Falkenstein · Markgrafschaft Freiberg</div>
+    <h1>Chronik des Gutes</h1>
+    <div class="unter">Bericht über das Rittergut Falkenstein im Monat des Boron</div>
+    <div class="zier">✦ ✦ ✦</div>
+    <div class="verfasser">Ausgabe 2 · Monat Boron · 1053 BF · Aufgezeichnet von der Schreibstube zu Falkenstein</div>
+  </div>
+
+  <p class="anrede">Euer Wohlgeboren,</p>
+  <p class="einleitung"><span class="initial">D</span>er Boron hat die Tage kurz gemacht. Morgens liegt Nebel im Tal von Silberbach, die Waldpfade nach Hochfeld sind schlammig, und auf der Großen Weststraße fahren nur noch wenige Wagen. Zu Beginn des Monats habt Ihr den Rat auf der Burg versammelt und Eure Anordnungen gegeben. Was danach geschah, sei hier verzeichnet.</p>
+
+  <h2>Was sich zutrug</h2>
+  <section class="ereignis gut"><h3><span class="nr">I.</span> Das Turmdach wird gedeckt <span class="art">Gutes</span></h3><p>Wie Ihr im Rat angeordnet habt, kamen in der ersten Woche zwei Dachdecker aus der Mark. Sie haben das Dach des Rundturms bis auf die Sparren abgedeckt, zwei morsche Balken ersetzt und mit neuen Schindeln gedeckt, ehe die Herbstregen einsetzten. Das Holz für die Schindeln schlugen die Hochfelder am Windbruch vom Travia und bekamen es bezahlt. Die beiden Waffenknechte schlafen wieder trocken, und der Turmwächter sagt, im zweiten Geschoss rieche es zum ersten Mal nicht nach Moder.</p><ul class="wirk"><li><span class="pf +">▲</span> Burg und Befestigung <i>– Turm winterfest gedeckt</i></li><li><span class="pf +">▲</span> Sicherheit und Wehr <i>– Wachstube trocken, Waffen rosten nicht</i></li><li><span class="pf +">▲</span> Forst und Köhlerei <i>– Windbruch als Schindelholz verkauft</i></li><li><span class="pf -">▼</span> Kasse und Finanzen <i>– Dachdecker und Holz, 50 S aus der Reserve</i></li></ul></section><section class="ereignis gut"><h3><span class="nr">II.</span> Der Herr in Hochfeld <span class="art">Gutes</span></h3><p>Ihr seid nach Hochfeld geritten und habt den beiden Jägern, die den Wolf erlegt hatten, vor dem Gutshaus gedankt und jedem Silber in die Hand gegeben. Hildeburg hat das Brot selbst gebrochen und vor allen gesagt, so habe es seit den alten Herren keiner mehr getan. Danach führte sie Euch zur Scheune und zeigte den zerbrochenen Pflug und den leeren Stall, wie sie es schon im Rat angemahnt hatte: Ohne Zugtiere bleibt das brache Drittel der Felder auch im Frühjahr brach, und die Köhler müssen die Kohle selbst zu Tal tragen.</p><ul class="wirk"><li><span class="pf +">▲</span> Bevölkerung und Stimmung <i>– Hochfeld versöhnt</i></li><li><span class="pf o">●</span> Felder und Ernte <i>– Pflug und Zugtiere fehlen weiter</i></li><li><span class="pf o">●</span> Forst und Köhlerei <i>– Kohle wird mühsam getragen</i></li><li><span class="pf -">▼</span> Kasse und Finanzen <b>−5 S</b> <i>– Belohnung der Jäger</i></li></ul></section><section class="ereignis gemischt"><h3><span class="nr">III.</span> Die Bergleute im Winterquartier <span class="art">Zwiespältiges</span></h3><p>Die drei Bergleute bleiben, wie Ihr entschieden habt, auf Kosten des Gutes in der Herberge zum Silberbach. Müßig sitzen wollten sie nicht: Mit Eurer Erlaubnis haben sie den Stolleneingang am Kaltentann von Laub und Geröll befreit und im Hochfelder Wald Tannen gezeichnet, die als Grubenholz für die Abstützung taugen. Gefällt ist noch nichts, und gefördert wird nicht. Die Köhler sahen die fremden Zeichen an ihren Bäumen nicht gern; Hildeburg hat die Sache mit einem Krug Bier geschlichtet, aber sie will gefragt werden, ehe jemand ihren Wald verplant.</p><ul class="wirk"><li><span class="pf +">▲</span> Bergbau Kaltentann <i>– Eingang frei, Grubenholz ausgesucht</i></li><li><span class="pf +">▲</span> Herberge und Weststraße <i>– feste Wintergäste</i></li><li><span class="pf -">▼</span> Forst und Köhlerei <i>– Köhler fühlen sich übergangen</i></li><li><span class="pf -">▼</span> Kasse und Finanzen <b>−12 S</b> <i>– Kost und Quartier</i></li></ul></section><section class="ereignis schlecht"><h3><span class="nr">IV.</span> Ein Sprung im Mühlstein <span class="art">Schlechtes</span></h3><p>In der zweiten Woche ist der angeschlagene Läuferstein der Steinmühle bis zur Mitte gesprungen. Der Müller hat ihn mit Eisenklammern gefasst, drei Tage stand die Mühle still, und Silberbach musste mit Handmühlen mahlen. Seither läuft sie wieder, aber langsamer, und das Mehl knirscht. Werold kam selbst zur Burg: Der Mahlzwang sei gerecht, solange die Mühle des Herrn gutes Mehl mahle. Er bittet, dass man den Leuten früh sage, wie es weitergeht.</p><ul class="wirk"><li><span class="pf -">▼</span> Steinmühle <i>– Läuferstein gesprungen, notdürftig geklammert</i></li><li><span class="pf -">▼</span> Bevölkerung und Stimmung <i>– Silberbach murrt über den Mahlzwang</i></li><li><span class="pf o">●</span> Felder und Ernte <i>– Korn liegt länger im Speicher</i></li><li><span class="pf -">▼</span> Kasse und Finanzen <b>−6 S</b> <i>– Klammern und Schmiedearbeit</i></li></ul></section><section class="ereignis schlecht"><h3><span class="nr">V.</span> Ein Pferdedieb an der Weststraße <span class="art">Schlechtes</span></h3><p>In der dritten Woche wurde aus dem Stall der Herberge zum Silberbach bei Nacht das Pferd eines Tuchhändlers gestohlen. Der Waffenknecht auf Straßenpatrouille fand die Spur am Morgen und folgte ihr nach Norden bis an die Grenze Eures Gutes; unterwegs fand er im verlassenen Kalksteinbruch die Asche eines Lagerfeuers, an der Grenze aber musste er umkehren, um die Straße nicht unbewacht zu lassen. Der Wirt ist gekränkt, denn sein Stall galt als sicher, und der Händler hat laut gesagt, an der Westmark schlafe die Wache. Ein Schreiben an den Ritter von Markwacht, auf dessen Gut der Wach- und Zollturm steht, liegt bei.</p><ul class="wirk"><li><span class="pf -">▼</span> Sicherheit und Wehr <i>– Dieb entkommen, die Wache reicht nicht weit</i></li><li><span class="pf -">▼</span> Herberge und Weststraße <i>– Ruf des Stalls leidet</i></li><li><span class="pf o">●</span> Beziehungen <i>– Nachricht an den Ritter von Markwacht</i></li><li><span class="pf o">●</span> Steinbruch (Kalkstein) <i>– der Dieb lagerte im verlassenen Bruch</i></li><li><span class="pf +">▲</span> Kasse und Finanzen <b>+6 S</b> <i>– Wegzoll trotz wenig Verkehr</i></li></ul></section>
+  <h2>Im Jahreskreis</h2><section class="fest"><h3>Gedenken an die Toten</h3><p>Im Monat des Schweigenden Gottes stellten die Leute in beiden Dörfern Lichter auf die Gräber und ließen eine Schale Brei vor der Tür stehen, für die, die nicht mehr am Tisch sitzen. In Hochfeld sprach Hildeburg die Namen aller Toten des Jahres vor der Praios-Kapelle, in Silberbach blieb die Herberge an diesem Abend still. Die Alten erzählen, früher habe auch auf der Burg ein Licht für die Toten des Hauses Falkenstein gebrannt, und sie sahen in dieser Nacht lange zum Turm hinauf.</p></section>
+  <h2>Was man sich erzählt</h2><p class="hinweis">Gerüchte, wahr oder nicht. Die Schreibstube verbürgt sich für keines.</p><ul class="geruechte"><li><span class="quelle">Herberge zum Silberbach:</span> Der Pferdedieb sei kein Fremder gewesen: Wer den Riegel am Stall so leise hebe, kenne ihn. Der Wirt will davon nichts hören.</li><li><span class="quelle">Hochfeld, bei den Köhlern:</span> Seit die Bergleute am Kaltentann waren, will ein Köhlerjunge nachts ein Klopfen aus dem Berg gehört haben. Die Bergleute sagen, das sei nur Wasser im Fels, aber sie haben dabei nicht gelacht.</li><li><span class="quelle">Silberbach, am Mühlbach:</span> Die alte Müllerin behauptet, der Läuferstein sei schon unter dem Vogt einmal gesprungen und nur mit Kitt verschmiert worden. Ob das stimmt, weiß keiner.</li><li><span class="quelle">Weststraße:</span> Fuhrleute fragen in der Herberge, ob es am Kaltentann im Frühjahr Arbeit für Wagen und Ochsen gibt. Man kennt den Namen Falkenstein jetzt bis nach Freiberg.</li></ul>
+</div>
+<div>
+  <h2>Stand der Bereiche</h2>
+  <table class="bereiche">
+    <tr><th>Bereich</th><th>Wirkungen</th><th>Stufe</th><th>Lage</th></tr>
+    <tr><td>Kasse und Finanzen</td><td class="pfe">▼ ▼ ▼ ▼ ▲</td><td class="stufe">◆◆◆◆◇ <small>gut ●</small></td><td>Reserve um 50 S für das Dach vermindert</td></tr><tr><td>Felder und Ernte</td><td class="pfe">● ●</td><td class="stufe">◆◆◆◇◇ <small>mittel ●</small></td><td>Winterruhe; Hochfeld fehlen Pflug und Zugtiere</td></tr><tr><td>Steinmühle</td><td class="pfe">▼</td><td class="stufe">◆◆◇◇◇ <small>schlecht ▼</small></td><td>Läuferstein gesprungen, geklammert, mahlt langsam</td></tr><tr><td>Forst und Köhlerei</td><td class="pfe">▲ ● ▼</td><td class="stufe">◆◆◆◇◇ <small>mittel ●</small></td><td>Windbruch verwertet, Köhler empfindlich</td></tr><tr><td>Steinbruch (Kalkstein)</td><td class="pfe">●</td><td class="stufe">◆◆◇◇◇ <small>schlecht ●</small></td><td>brach, dient Gesindel als Lager</td></tr><tr><td>Bergbau Kaltentann</td><td class="pfe">▲</td><td class="stufe">◆◆◆◇◇ <small>mittel ●</small></td><td>Eingang frei, Grubenholz gezeichnet; nicht freigegeben</td></tr><tr><td>Herberge und Weststraße</td><td class="pfe">▲ ▼</td><td class="stufe">◆◆◆◆◇ <small>gut ●</small></td><td>ruhige Jahreszeit, Diebstahl im Stall</td></tr><tr><td>Burg und Befestigung</td><td class="pfe">▲</td><td class="stufe">◆◆◆◆◇ <small>gut ●</small></td><td>Turm neu gedeckt, winterfest</td></tr><tr><td>Sicherheit und Wehr</td><td class="pfe">▲ ▼</td><td class="stufe">◆◆◆◇◇ <small>mittel ●</small></td><td>trockene Wachstube, aber Dieb entkommen</td></tr><tr><td>Bevölkerung und Stimmung</td><td class="pfe">▲ ▼</td><td class="stufe">◆◆◆◇◇ <small>mittel ●</small></td><td>Hochfeld versöhnt, Silberbach murrt über die Mühle</td></tr><tr><td>Beziehungen</td><td class="pfe">●</td><td class="stufe">◆◆◆◆◇ <small>gut ●</small></td><td>Schreiben an Vilmos und Elzwalde liegen bereit; Nachricht an Markwacht</td></tr>
+  </table>
+  <div class="legende">◆ Stufe von fünf · ▲ besser · ▼ schlechter · ● spürbar, ohne Richtung</div>
+
+  <h2>Die Kasse</h2>
+  <table class="kasse"><tbody><tr><td>Tageskraft (30 Tage zu 9 S)</td><td>+270 S</td></tr><tr><td>Ereignisse des Monats</td><td>−17 S</td></tr><tr><td>Frei verfügbar im Boron</td><td>253 S</td></tr></tbody></table>
+  <div class="reserve">Barreserve des Hauses: <b>8.050 S (50 S für das Turmdach entnommen)</b></div>
+
+  <h2>Zu Eurem Entscheid</h2>
+  <ul class="entscheid"><li class="frage"><b>Was geschieht mit dem gesprungenen Mühlstein?</b><ol class="optionen"><li><b>a) Steinmetz holen lassen</b> ✦ – Ein Steinmetz aus der Mark schätzt einen neuen Läufer, etwa 10 S für Reise und Lohn. Werold ist zufrieden, dass offen geplant wird; die Kosten des Steins bleiben offen.</li><li><b>b) Geklammert weitermahlen</b> – Keine Kosten jetzt. Bricht der Stein im Winter ganz, steht die Mühle wochenlang, und Silberbach verliert das Vertrauen in den Mahlzwang.</li><li><b>c) Mahlzwang aussetzen</b> – Silberbach darf bis zur Reparatur selbst mahlen. Werold und das Dorf sind Euch dankbar; das Mühlengeld fällt bis dahin weg.</li></ol></li><li class="frage"><b>Was bekommt Hochfeld für Pflug und Zugtiere?</b><ol class="optionen"><li><b>a) Pflug aus der Burgschmiede</b> ✦ – Die Schmiede fertigt bis Peraine einen neuen Pflug, etwa 15 S für Eisen. Hildeburg ist zufrieden; Zugtiere fehlen weiter.</li><li><b>b) Pflug und ein Zugpferd</b> – Dazu ein Pferd vom Markt, Preis noch zu erfragen, aus der Reserve. Hildeburg wird Euch treu ergeben, Felder und Köhlerei im Frühjahr besser.</li><li><b>c) Auf das Eisen vertrösten</b> – Keine Kosten jetzt; Pflug, sobald der Kaltentann fördert. Hildeburg ist verstimmt und erinnert Euch im Rat daran.</li></ol></li><li class="frage"><b>Wie antwortet Varion auf den Diebstahl im Stall?</b><ol class="optionen"><li><b>a) Nachtwache im Stall stellen</b> ✦ – Ein Knecht des Wirts wacht nachts, das Gut trägt etwa 4 S im Monat. Der Wirt ist versöhnt, die Händler hören, dass Falkenstein wacht.</li><li><b>b) Patrouille nachts in Silberbach</b> – Der Waffenknecht reitet nachts statt am Tag. Der Stall ist sicher, aber tags ist die Straße dünner bewacht; der Wirt ist dankbar.</li><li><b>c) Sache dem Wirt überlassen</b> – Keine Kosten. Der Wirt ist verstimmt, und an der Straße heißt es weiter, an der Westmark schlafe die Wache.</li></ol></li></ul>
+  <div class="legende">✦ Rat der Schreibstube</div>
+  <h2>Ausblick</h2>
+  <ul class="ausblick"><li>Die Schreiben aus dem Rat an Seine Erlaucht (Kosten der Abstützung) und an den Junker von Elzwalde (Vertragsentwurf) liegen zur Absendung bereit.</li><li>Im Hesinde beginnt der Winter; Holzkohle und Brennholz für die Burg sollten vor dem ersten Schnee eingebracht sein.</li><li>Das Grubenholz am Kaltentann ist gezeichnet; gefällt wird erst, wenn Ihr die Abstützung freigebt.</li></ul>
+
+  <div class="siegel">F</div>
+  <p class="schluss">Gegeben zu Falkenstein, am Ende des Monats des Boron, im Jahre 1053 nach dem Fall Bosparans. Boron schenke den Toten Frieden und den Lebenden ruhigen Schlaf.</p>
+  <p class="beilage">Beigelegt: Schreiben an Seine Wohlgeboren den Ritter von Markwacht</p>
+  <div class="ot">⚑ Ereignisse dieser Chronik sind Vorschläge und werden erst nach Bestätigung Kanon.</div>
+</div>
+</td></tr></tbody></table>
+
+</body>
+</html>

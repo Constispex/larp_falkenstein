@@ -1,0 +1,23 @@
+# Von einem Pferdedieb auf der Großen Weststraße
+
+⚑ Entwurf aus dem Gutsbericht Nr. 2 (Boron 1053 BF), noch nicht gesendet.
+
+*Anlass:* Gutsbericht Nr. 2, Ereignis V (⚑): Aus dem Stall der Herberge zum Silberbach wurde einem Tuchhändler ein Pferd gestohlen; der Dieb ritt die Weststraße nach Norden, also auf Markwacht zu.
+
+Varion von Falkenstein, Ritter zu Falkenstein an der Westmark der Markgrafschaft Freiberg, entbietet dem wohlgeborenen Herrn Ritter von Markwacht, seinen Gruß zuvor.
+
+Euer Wohlgeboren,
+
+als Euer Nachbar im Süden gebe ich Euch Nachricht von einem Diebstahl, der auch Euer Gut berühren mag. In der dritten Woche des Boron wurde aus dem Stall der Herberge zum Silberbach bei Nacht ein brauner Wallach mit weißer Blesse gestohlen, das Reittier eines Tuchhändlers aus der Mark. Mein Waffenknecht hat die Spur bis zum Morgen verfolgt; sie führte auf der Großen Weststraße nach Norden.
+
+Da auf Eurem Gut der Wach- und Zollturm an der Straße steht, bitte ich Euer Wohlgeboren, Eure Wache möge auf Reiter mit einem solchen Pferd achten. Sollte sich der Dieb oder das Tier bei Euch finden, wäre ich für Nachricht dankbar, damit der Händler zu seinem Recht kommt.
+
+Gleiches sage ich Euch zu: Was von Eurem Gut auf der Straße nach Süden entwendet wird, soll an meinem Wegzoll in Silberbach nicht unbemerkt vorbeikommen.
+
+Möge Rondra Euren Arm stärken und Praios über Eurem Turm wachen.
+
+*Gegeben auf Burg Falkenstein am Kaltentann, im Monat des Boron des Jahres 1053 nach Bosparans Fall.*
+
+Mit ritterlichem Gruß
+
+Varion von Falkenstein, Ritter zu Falkenstein
